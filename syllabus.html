@@ -1,40 +1,105 @@
----
-title: Lessons
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div class='row'>
-  <div class='col-md-12'>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIS 7000: Large Language Models Syllabus</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #333;
+    }
+
+    ul {
+      margin-top: 0;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CIS 7000: Large Language Models (Spring ’24)</h1>
+  <h2>General Information</h2>
+  <ul>
+    <li><strong>Instructor:</strong> Mayur Naik (CIS)</li>
+    <li><strong>Credit Units:</strong> 1 CU (3 semester hours)</li>
+    <li><strong>Class Schedule:</strong> Lecture: 3 hours/week</li>
+    <li><strong>Prerequisites:</strong>
+      <ul>
+        <li>CIS 520 or equivalent: Mathematical foundations of machine learning</li>
+        <li>CIS 545 or equivalent: Experience with building, training, and debugging machine learning models</li>
+      </ul>
+    </li>
+    <li><strong>Text/Required Materials:</strong> Online papers drawn primarily from machine learning research
+      conferences
+      (e.g., NeurIPS, ICML, ICLR)</li>
+  </ul>
+
+  <h2>Course Description</h2>
+  <p>
+    This course offers an in-depth exploration of large language models (LLMs) focusing on their design, training, and
+    usage. It begins with the attention mechanism and transformer architectures, moves through practical aspects of
+    pre-training and efficient deployment, and concludes with advanced techniques like prompting and neurosymbolic
+    learning.
+    The course aims to equip students with the skills to critically analyze LLM research and apply these concepts in
+    real-world scenarios. A solid foundation in machine learning, programming, and deep learning is recommended.
+  </p>
+  <h2>Topics Covered</h2>
+  <ul>
+    <li>History of LLMs</li>
+    <li>Transformer Architectures</li>
+    <li>Model Training Techniques</li>
+    <li>Prompt Engineering</li>
+    <li>Ethical Considerations and Safety Measures</li>
+    <li>Advanced Integration Techniques (e.g., RAG, Neurosymbolic Learning)</li>
+  </ul>
+
+  <h2>Weekly Schedule</h2>
+  <ul>
+    <li><strong>Week 1:</strong> Introduction to LLMs</li>
+    <li><strong>Weeks 2-3:</strong> The Transformer Architecture</li>
+    <li><strong>Week 4:</strong> Pre-training (Data Processing, Infrastructure, Scaling Laws)</li>
+    <li><strong>Week 5:</strong> Post-training (Instruction Tuning, Alignment, Evaluation)</li>
+    <li><strong>Week 6:</strong> Adaptation</li>
+    <li><strong>Week 7:</strong> Fast and Efficient Inference (Quantization, Flash Attention)</li>
+    <li><strong>Week 8:</strong> Prompting</li>
+    <li><strong>Week 9:</strong> RAG and Vector DBs</li>
+    <li><strong>Week 10:</strong> Neurosymbolic Architectures</li>
+    <li><strong>Weeks 11-12:</strong> Project Presentations</li>
+  </ul>
+
+  <h2>Course Objectives</h2>
+  <p>By the end of this course, students will be able to:</p>
+  <ul>
+    <li>Analyze design decisions in modern and upcoming transformer architectures.</li>
+    <li>Determine the hardware, software, and data requirements for pre-training or fine-tuning an LLM for new tasks.
+    </li>
+    <li>Understand where LLMs should and should not be used based on their capability and reliability.</li>
+    <li>Leverage a deep understanding of LLM theory and software to design prompts and applications around them.</li>
+  </ul>
+
+    <h2>Grading Details</h2>
     <p>
-    The lectures consist of 11 lessons delivered in two forms: videos (streaming from YouTube) and slides (in PDF and PPTX formats).
+      The course comprises two major concurrent activities:
     </p>
-	<center>
-    <table border="1">
-      <tr>
-        <th rowspan=2><b>&nbsp;#&nbsp;</b></th>
-        <th rowspan=2><b>Topic</b></th>
-        <th colspan=2><b>Videos</b></th>
-        <th colspan=2><b>Slides</b></th>
-      </tr>
-      <tr>
-        <th>URL</th>
-        <th>Size (mm:ss)</th>
-        <th>PDF</th>
-        <th>PPTX</th>
-      </tr>
-      {% for lecture in site.data.lectures %}
-      <tr>
-        <td>L{{lecture.id}}</td>
-        <td>{{lecture.title}}</td>
-        <td>[<a href="{{ lecture.video }}">video</a>]</td>
-        <td>{{lecture.length}}</td> 
-        <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pdf">PDF</a>]</td>
-        <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pptx">PPTX</a>]</td>
-      </tr>
-      {% endfor %}
-      </tr>
-    </table>
-	</center>
-  </div>
-</div>
-
+    <ul>
+      <li><strong>Homeworks:</strong> Hands-on assignments involving the implementation and evaluation of LLM techniques,
+        primarily in Python.</li>
+      <li><strong>Lectures:</strong> Covering LLM concepts, supplemented with technical papers for deeper study.</li>
+    </ul>
+    <p><strong>Grading Rubric:</strong></p>
+    <ul>
+      <li>65% Homeworks</li>
+      <li>30% Project</li>
+      <li>5% Class Participation</li>
+    </ul>
+    </body>
+    </html>
