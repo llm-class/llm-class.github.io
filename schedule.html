@@ -1,0 +1,40 @@
+---
+title: Lessons
+layout: default
+---
+
+<div class='row'>
+  <div class='col-md-12'>
+    <p>
+    The lectures consist of 11 lessons delivered in two forms: videos (streaming from YouTube) and slides (in PDF and PPTX formats).
+    </p>
+	<center>
+    <table border="1">
+      <tr>
+        <th rowspan=2><b>&nbsp;#&nbsp;</b></th>
+        <th rowspan=2><b>Topic</b></th>
+        <th colspan=2><b>Videos</b></th>
+        <th colspan=2><b>Slides</b></th>
+      </tr>
+      <tr>
+        <th>URL</th>
+        <th>Size (mm:ss)</th>
+        <th>PDF</th>
+        <th>PPTX</th>
+      </tr>
+      {% for lecture in site.data.lectures %}
+      <tr>
+        <td>L{{lecture.id}}</td>
+        <td>{{lecture.title}}</td>
+        <td>[<a href="{{ lecture.video }}">video</a>]</td>
+        <td>{{lecture.length}}</td> 
+        <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pdf">PDF</a>]</td>
+        <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pptx">PPTX</a>]</td>
+      </tr>
+      {% endfor %}
+      </tr>
+    </table>
+	</center>
+  </div>
+</div>
+

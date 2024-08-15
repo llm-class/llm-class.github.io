@@ -1,0 +1,13 @@
+# this goes inside _config.yml. Change as required
+home:
+        - text: Home
+          url: /index.html
+navigation:
+        - text: Syllabus
+          url: /syllabus.html
+        - text: Schedule
+          url: /schedule.html
+        - text: Homeworks
+          url: /homeworks.html
+        - text: Staff
+          url: /staff.html
