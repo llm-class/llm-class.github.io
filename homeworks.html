@@ -6,16 +6,7 @@ layout: default
 <div class='row'>
   <div class='col-md-12'>
     <p>
-    There are 8 labs to complement the lessons and impart hands-on experience.
-    Each lab is of one of the following two kinds:
-    <ul>
-      <li>Using a software analysis tool based on a technique covered in lectures, reporting your findings, and
-        answering conceptual questions.</li>
-      <li>Implementing a software analysis algorithm in a high-level programming language (usually Java).</li>
-    </ul>
-    A VM image compatible with both Virtualbox and VMWare is provided for relevant
-    assignments. (It should also work with other virtualization software but only
-    these two are officially supported.)
+    There are going to be 5 homeworks in the course
     </p>
     <center>
     <table border="1">
@@ -26,7 +17,9 @@ layout: default
       </tr>
       {% for assignment in site.data.assignments %}
       <tr>
-        <td>A{{assignment.id}}&nbsp</td><td>&nbsp{{assignment.title}}</td><td>[<a href="{{site.baseurl}}/assignments/{{assignment.id}}.pdf">PDF</a>]</td>
+        <td>HW{{assignment.id}}&nbsp</td>
+        <td>&nbsp{{assignment.title}}</td>
+        <td>[<a href="{{site.baseurl}}/assignments/{{assignment.id}}.pdf">PDF</a>]</td>
       </tr>
       {% endfor %}
     </table>

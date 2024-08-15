@@ -1,26 +1,17 @@
 # id
 # title
 
+- id: "0"
+  title: "Exploring LLMs"
+
 - id: "1"
-  title: "Dafny"
+  title: "Tranformer from Scratch"
 
 - id: "2"
-  title: "Monkey"
+  title: "Finetuning LLMs"
 
 - id: "3"
-  title: "Korat"
+  title: "LLM Compression"
 
 - id: "4"
-  title: "Randoop"
-
-- id: "5"
-  title: "Dataflow"
-
-- id: "6"
-  title: "Constraints"
-
-- id: "7"
-  title: "CBI"
-
-- id: "8"
-  title: "Delta"
+  title: "Neurosymbolic and Advanced Topics"
