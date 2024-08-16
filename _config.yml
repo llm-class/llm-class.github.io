@@ -1,6 +1,6 @@
 # this goes inside _config.yml. Change as required
 home:
-        - text: Home
+        - text: CIS 7000 - Large Language Models
           url: /index.html
 navigation:
         - text: Syllabus
