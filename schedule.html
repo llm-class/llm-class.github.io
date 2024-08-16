@@ -1,40 +1,189 @@
 ---
-title: Lessons
+title: Labs
 layout: default
 ---
 
-<div class='row'>
-  <div class='col-md-12'>
-    <p>
-    The lectures consist of 11 lessons delivered in two forms: videos (streaming from YouTube) and slides (in PDF and PPTX formats).
-    </p>
-	<center>
-    <table border="1">
+<table>
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Lecture</th>
+      <th>Topic</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aug 28</td>
+      <td>Lecture 1</td>
+      <td>Introduction</td>
+      <td>Homework 0 (due Sep 8)</td>
+    </tr>
+    <tr>
+      <td>Sep 04</td>
+      <td>Lecture 2</td>
+      <td>Transformers</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sep 09</td>
+      <td>Lecture 3</td>
+      <td>Transformers</td>
+      <td>Homework 1 (due Sept 29)</td>
+    </tr>
+    <!-- <tr>
+      <td>Sep 06</td>
+      <td>Recitation 1</td>
+      <td>Transformers</td>
+      <td>Homework 1 (due Sept 29)</td>
+    </tr> -->
+    <tr>
+      <td>Sep 11</td>
+      <td>Lecture 4</td>
+      <td>Pre-Training</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sep 16</td>
+      <td>Lecture 5</td>
+      <td>Pre-Training</td>
+      <td>Guest Lecture</td>
+    </tr>
+    <tr>
+      <td>Sep 18</td>
+      <td>Lecture 6</td>
+      <td>Pre-Training</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Sep 23</td>
+      <td>Lecture 7</td>
+      <td>-</td>
+      <td>HW1 Office Hours</td>
+    </tr>
+    <tr>
+      <td>Sep 25</td>
+      <td>Lecture 8</td>
+      <td>Post-Training</td>
+      <td>Guest Lecture</td>
+    </tr>
+    <tr>
+      <td>Sep 30</td>
+      <td>Lecture 9</td>
+      <td>Adaptation</td>
+      <td>Homework 2 (due Oct 20)</td>
+    </tr>
+    <tr>
+      <td>Oct 02</td>
+      <td>Lecture 10</td>
+      <td>Adaptation</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Oct 07</td>
+      <td>Lecture 11</td>
+      <td>Prompting</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Oct 09</td>
+      <td>Lecture 11</td>
+      <td>Prompting</td>
+      <td>Guest lecture</td>
+    </tr>
+    <tr>
+      <td>Oct 14</td>
+      <td>Lecture 13</td>
+      <td>Fast and Efficient Inference</td>
+      <td>Homework 3 (due November 10th)</td>
+    </tr>
+    <tr>
+      <td>Oct 16</td>
+      <td>Lecture 14</td>
+      <td>Fast and Efficient Inference</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Oct 21</td>
+      <td>Lecture 15</td>
+      <td>Fast and Efficient Inference</td>
+      <td>Guest lecture</td>
+    </tr>
+    <tr>
+      <td>Oct 23</td>
+      <td>Lecture 16</td>
+      <td>RAG and Vector DBs</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Oct 28</td>
+      <td>Lecture 17</td>
+      <td>RAG and Vector DBs</td>
+      <td>Guest lecture</td>
+    </tr>
+    <tr>
+      <td>Oct 30</td>
+      <td>Lecture 18</td>
+      <td>Agent Frameworks</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Nov 04</td>
+      <td>Lecture 19</td>
+      <td>Agent Frameworks</td>
+      <td>Guest Lecture</td>
+    </tr>
+    <tr>
+      <td>Nov 06</td>
+      <td>Lecture 20</td>
+      <td>Neurosymbolic</td>
+      <td>Homework 4 (due Dec 2)</td>
+    </tr>
+    <tr>
+      <td>Nov 11</td>
+      <td>Lecture 21</td>
+      <td>Neurosymbolic</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Nov 13</td>
+      <td>Lecture 22</td>
+      <td>Neurosymbolic</td>
+      <td>Guest Lecture</td>
+    </tr>
+    <tr>
+      <td>Nov 18</td>
+      <td>Final Project Introduction</td>
+      <td></td>
+      <td></td>
+    </tr>
       <tr>
-        <th rowspan=2><b>&nbsp;#&nbsp;</b></th>
-        <th rowspan=2><b>Topic</b></th>
-        <th colspan=2><b>Videos</b></th>
-        <th colspan=2><b>Slides</b></th>
+      <td>Nov 20</td>
+      <td>Guest Lecture</td>
+      <td></td>
+      <td></td>
       </tr>
-      <tr>
-        <th>URL</th>
-        <th>Size (mm:ss)</th>
-        <th>PDF</th>
-        <th>PPTX</th>
-      </tr>
-      {% for lecture in site.data.lectures %}
-      <tr>
-        <td>L{{lecture.id}}</td>
-        <td>{{lecture.title}}</td>
-        <td>[<a href="{{ lecture.video }}">video</a>]</td>
-        <td>{{lecture.length}}</td> 
-        <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pdf">PDF</a>]</td>
-        <td>[<a href="{{site.baseurl}}/slides/{{lecture.id}}.pptx">PPTX</a>]</td>
-      </tr>
-      {% endfor %}
-      </tr>
-    </table>
-	</center>
-  </div>
-</div>
+<tr>
+  <td>Dec 2</td>
+  <td>Final Project Presentations</td>
+  <td></td>
+  <td></td>
+  </tr>
+<tr>
+  <td>Dec 4</td>
+  <td>Final Project Presentations</td>
+  <td></td>
+  <td></td>
+  </tr>
+<tr>
+  <td>Dec 9</td>
+  <td>Final Project Presentations</td>
+  <td></td>
+  <td></td>
+</tr>
+  </tbody>
+</table>
 
+<iframe
+  src="https://calendar.google.com/calendar/embed?src=c_f10c2726c1218a37c58d40b99ab928a033d5358b195357e534faba6be651bb2a%40group.calendar.google.com&ctz=America%2FNew_York"
+  style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
