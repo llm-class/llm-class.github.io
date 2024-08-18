@@ -61,7 +61,7 @@ th {
     </tr>
   </thead>
   <tbody>
-    {% for week in site.data.lectures %}
+    {% for week in site.data.schedule %}
       <tr class="week">
         <td><b>{{ week.week }}</b></td>
         <td></td>
@@ -69,9 +69,14 @@ th {
       {% for item in week.items %}
       <tr class="{{ item.class }}">
           <td class="nowrap">{{ item.date }}</td>
-          <td>{{ item.topic }}
+          <td>
+          {% if item.topic %}
+              <b>{{ item.topic }}</b>
+              {% if item.details %}
+                  <br>
+              {% endif %}
+          {% endif %}
           {% if item.details %}
-              <br>
               {{ item.details }}
           {% endif %}
           </td>
