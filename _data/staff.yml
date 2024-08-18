@@ -1,0 +1,25 @@
+- name: "Mayur Naik"
+  role: "Instructor"
+  image: "images/mayur_naik.png"
+  link: "http://www.cis.upenn.edu/~mhnaik/"
+
+- name: "Amish Sethi"
+  role: "Head TA"
+  image: "images/amish_sethi.jpeg"
+
+- name: "Liam Dodds"
+  role: "TA"
+  image: "images/liam_dodds.jpeg"
+
+- name: "Matthew Kuo"
+  role: "TA"
+  image: "images/matthew_kuo.jpeg"
+
+- name: "Neelay Velingker"
+  role: "TA"
+  image: "images/neelay_velingker.jpeg"
+
+- name: "Zhiqiu (Oscar) Xu"
+  role: "TA"
+  image: "images/zhiqiu_xu.png"
+

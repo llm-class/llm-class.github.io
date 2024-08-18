@@ -7,7 +7,7 @@
 - week: "Week 2"
   items:
     - date: "Mon Sep 02"
-      topic: "No lecture - Labor Day"
+      topic: "No class - Labor Day"
       class: "lecture"
     - date: "Wed Sep 04"
       topic: "The Transformer Architecture - Part 1"
@@ -41,10 +41,11 @@
 - week: "Week 5"
   items:
     - date: "Mon Sep 23"
-      topic: "Check-ins by TAs for Homework 1"
+      topic: "Check-ins by TAs for Homework 1 (Instructor away)"
       class: "lecture"
     - date: "Wed Sep 25"
-      topic: "Guest Lecture on Post-Training"
+      topic: "Guest Lecture by <a href=\"https://hanjun-dai.github.io/\">Hanjun Dai</a>, Google Brain"
+      details: "Topics: RLHF, Reward Modeling <br> Reading: <a href=\"https://arxiv.org/abs/2405.19320\">Value-Incentivized Preference Optimization: A Unified Approach to Online and Offline RLHF</a>"
       class: "guest_lecture"
 
 - week: "Week 6"
