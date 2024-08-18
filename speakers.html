@@ -3,18 +3,23 @@ layout: default
 ---
 
 <div class="row">
-        {% for speaker in site.data.speakers %}
-            <div class="col-12 mb-4">
-                <div class="d-flex align-items-center">
-                    <div class="me-5">
-                        <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="rounded-image">
-                    </div>
-                    <div>
-                        <h5>{{ speaker.name }}</h5>
-                        <p class="mb-1"><strong>{{ speaker.title }}</strong></p>
-                        <p>{{ speaker.affiliation }}</p>
-                    </div>
+    {% for speaker in site.data.speakers %}
+        <!-- Determine whether the row is odd or even -->
+        {% assign row_class = forloop.index | modulo: 2 %}
+        <hr width="100%"/>
+        <div class="col-12 mb-4">
+            <div class="d-flex align-items-center {% if row_class == 1 %}flex-row{% else %}flex-row-reverse{% endif %}">
+                <!-- Image (conditionally placed left or right) -->
+                <div class="{% if row_class == 1 %}me-5{% else %}ms-5{% endif %}">
+                    <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="rounded-image">
+                </div>
+                <!-- Description (conditionally placed right or left) -->
+                <div>
+                    <h5><a href="{{ speaker.url }}">{{ speaker.name }}</a></h5>
+                    <p class="mb-1"><strong>{{ speaker.title }}</strong></p>
+                    <p>{{ speaker.affiliation }}</p>
                 </div>
             </div>
-        {% endfor %}
+        </div>
+    {% endfor %}
 </div>
