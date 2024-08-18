@@ -1,15 +1,16 @@
-# this goes inside _config.yml. Change as required
-home:
-        - text: CIS 7000 - Large Language Models
-          url: /index.html
+title: "CIS 7000 - Large Language Models"
+baseurl: "https://llm-class.github.io/"
 navigation:
-        - text: Syllabus
-          url: /syllabus.html
-        - text: Schedule
-          url: /schedule.html
-        - text: Homeworks
-          url: /homeworks.html
-        - text: Calendar
-          url: /calendar.html
-        - text: Staff
-          url: /staff.html
+       - name: Syllabus
+         link: /syllabus.html
+       - name: Speakers
+         link: /speakers.html
+       - name: Schedule
+         link: /schedule.html
+       - name: Homeworks
+         link: /homeworks.html
+       - name: Calendar
+         link: /calendar.html
+       - name: Staff
+         link: /staff.html
+markdown: kramdown
