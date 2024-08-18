@@ -2,14 +2,19 @@
 layout: default
 ---
 
-<div class='d-md-flex justify-content-center'>
-    <div class='p-2 flex-fill'>
-        <img class="rounded-image" src='images/hanjun_dai.jpg'/>
-    </div>
-    <div class='p-2 flex-fill'>
-        <font size="+1"><strong><a href="https://hanjun-dai.github.io/">Hanjun Dai</a></strong></font><br>
-        Senior Research Scientist & Research Manager <br>
-        Google Brain
-    </div>
+<div class="row">
+        {% for speaker in site.data.speakers %}
+            <div class="col-12 mb-4">
+                <div class="d-flex align-items-center">
+                    <div class="me-5">
+                        <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="rounded-image">
+                    </div>
+                    <div>
+                        <h5>{{ speaker.name }}</h5>
+                        <p class="mb-1"><strong>{{ speaker.title }}</strong></p>
+                        <p>{{ speaker.affiliation }}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
 </div>
-
