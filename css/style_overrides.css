@@ -6,44 +6,10 @@ body {
   padding-top: 90px;
 }
 
-.custom-item {
-    margin-bottom: 20px;
-    border-radius: 5px;
+.rounded-image {
+    border-radius: 50%; /* Makes the image circular */
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image covers the circle area */
 }
-
-.custom-section-header {
-    background-color: #f0f0f0; /* Light gray background color */
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 1.2em;
-    color: #333; /* Dark text color */
-    font-family: 'Arial', sans-serif; /* Custom font */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    margin-bottom: 20px; /* Space below headers */
-}
-
-.custom-section {
-    scroll-margin-top: 60px; /* Keeps enough space at the top when scrolling */
-}
-
-.dropdown-item {
-    padding: 10px; /* Adjust padding */
-}
-
-.dropdown-item:hover {
-    background-color: #555; /* Highlight on hover */
-}
-
-.dropdown-menu {
-  display: none;
-}
-
-.link-list {
-    padding-left: 40px; /* Default padding for bullets */
-}
-
-.link-list li {
-    margin-bottom: 10px; /* Space between list items */
-}
-
 
