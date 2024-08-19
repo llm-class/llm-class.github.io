@@ -8,4 +8,8 @@
   title: "Research Scientist"
   image: "images/kai_sheng_tai.jpg"
   affiliation: "Meta AI"
-
+- name: "Denny Zhou"
+  url: "https://dennyzhou.github.io/"
+  title: "Principal Scientist & Research Director"
+  image: "images/denny_zhou.jpeg"
+  affiliation: "Google DeepMind"

@@ -82,7 +82,8 @@
       details: "Topics: TBD."
     - date: "Wed Oct 09"
       class: "guest_lecture"
-      topic: "Guest Lecture by TBD"
+      topic: "Guest Lecture by <a href=\"https://dennyzhou.github.io/\">Denny Zhou</a>, Google DeepMind"
+      details: "Topics: Prompting, Reasoning."
 
 - week: "Week 8"
   items:
