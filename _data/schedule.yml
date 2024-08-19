@@ -83,7 +83,7 @@
     - date: "Wed Oct 09"
       class: "guest_lecture"
       topic: "Guest Lecture by <a href=\"https://dennyzhou.github.io/\">Denny Zhou</a>, Google DeepMind"
-      details: "Topics: Prompting, Reasoning."
+      details: "Topics: LLM Reasoning."
 
 - week: "Week 8"
   items:
