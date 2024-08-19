@@ -1,17 +1,29 @@
-# id
-# title
 
 - id: "0"
   title: "Exploring LLMs"
+  description: "An introductory assignment comparing outputs from different large language models."
+  due_dates:
+    - "Sun Sep 08"  # Only one due date for this assignment
 
 - id: "1"
-  title: "Tranformer from Scratch"
+  title: "Transformer from Scratch"
+  description: "Build and understand the Transformer architecture from the ground up."
+  due_dates:
+    - "Sun Sep 22"  
+    - "Sun Sep 29" 
+    - "Sun Oct 06" 
+
 
 - id: "2"
   title: "Finetuning LLMs"
+  due_dates:
+
 
 - id: "3"
   title: "LLM Compression"
+  due_dates:
+
 
 - id: "4"
   title: "Neurosymbolic and Advanced Topics"
+  due_dates:

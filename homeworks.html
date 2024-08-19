@@ -5,24 +5,69 @@ layout: default
 <div class='row'>
   <div class='col-md-12'>
     <p>
-    There are going to be 5 homeworks in the course:
+      There are going to be 5 homeworks in the course:
     </p>
     <center>
-    <table border="1">
-      <tr>
-        <th><b>&nbsp;#&nbsp;</b></th>
-        <th><b>Title</b></th>
-        <th><b>Document</b></th>
-      </tr>
-      {% for assignment in site.data.assignments %}
-      <tr>
-        <td>HW{{assignment.id}}&nbsp</td>
-        <td>&nbsp{{assignment.title}}</td>
-        <td>[<a href="{{site.baseurl}}/assignments/{{assignment.id}}.pdf">PDF</a>]</td>
-      </tr>
-      {% endfor %}
-    </table>
+      <table border="1">
+        <tr>
+          <th><b>&nbsp;#&nbsp;</b></th>
+          <th><b>Title</b></th>
+          <th><b>Description</b></th>
+          <th><b>Due Dates</b></th>
+          </tr>
+          {% for assignment in site.data.assignments %}
+          <tr>
+          <td>HW{{assignment.id}}&nbsp;</td>
+          <td>&nbsp;<a href="{{site.baseurl}}/assignments/{{assignment.id}}.pdf">{{assignment.title}}</a></td>
+          <td>&nbsp;{{assignment.description}}</td>
+          <td>
+            {% if assignment.due_dates %}
+            {% for date in assignment.due_dates %}
+            <li>{{ date }}</li>
+            {% endfor %}
+            {% else %}
+            <p>Due dates TBD</p>
+            {% endif %}
+          </td>
+          </tr>
+          {% endfor %}
+          </table>
     </center>
   </div>
 </div>
 
+<style>
+  table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #000300;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  td a {
+    color: #2196F3;
+    text-decoration: none;
+  }
+
+  td a:hover {
+    text-decoration: underline;
+  }
+</style>

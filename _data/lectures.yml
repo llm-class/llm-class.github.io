@@ -31,6 +31,9 @@
       class: "lecture"
 - week: "Week 4"
   items:
+    - date: "Sun Sep 15"
+      topic: "Homework 1 Part 1 Due"
+      class: "sub_deadline"
     - date: "Mon Sep 16"
       topic: "Guest Lecture on Pre-Training"
       class: "guest_lecture"
@@ -40,6 +43,9 @@
       class: "lecture"
 - week: "Week 5"
   items:
+    - date: "Sun Sep 22"
+      topic: "Homework 1 Part 2 Due"
+      class: "sub_deadline"
     - date: "Mon Sep 23"
       topic: "Check-ins by TAs for Homework 1 (Instructor away)"
       class: "lecture"
@@ -51,7 +57,7 @@
 - week: "Week 6"
   items:
     - date: "Sun Sep 29"
-      topic: "Homework 1 due"
+      topic: "Homework 1 Final Submission due"
       class: "work_due"
     - date: "Mon Sep 30"
       topic: "Adaptation Techniques"

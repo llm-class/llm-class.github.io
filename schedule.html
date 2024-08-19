@@ -51,6 +51,10 @@ th {
 .holiday {
   background-color: #f8bbd0; /* Light Pink for holidays */
 }
+
+.sub_deadline {
+  background-color: #ffcc80; /* Light Orange for sub-deadlines */
+}
 </style>
 
 <table>
@@ -81,3 +85,19 @@ th {
   </tbody>
 </table>
 
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const today = new Date().toLocaleDateString('en-US', {
+      month: 'short', day: 'numeric'
+    });
+
+    const rows = document.querySelectorAll('td.nowrap');
+
+    rows.forEach(row => {
+      if (row.textContent.includes(today)) {
+        row.closest('tr').style.backgroundColor = "#ffeb3b"; 
+      }
+    });
+  });
+</script>
