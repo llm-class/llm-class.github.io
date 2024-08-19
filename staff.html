@@ -6,9 +6,9 @@ layout: default
     {% for staff in site.data.staff %}
         <div class="col-md-4 col-sm-6 col-6 mb-4">
             <center>
-                <img class="img-circle" src="{{ staff.image }}" alt="{{ staff.name }}" /> <br>
-                {% if staff.link %}
-                    <a href="{{ staff.link }}">{{ staff.name }}</a><br>
+                <img class="rounded-image" src="{{ staff.image }}" alt="{{ staff.name }}" /> <br>
+                {% if staff.url %}
+                    <a href="{{ staff.url }}">{{ staff.name }}</a><br>
                 {% else %}
                     {{ staff.name }}<br>
                 {% endif %}

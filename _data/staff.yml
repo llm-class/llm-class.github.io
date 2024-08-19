@@ -1,7 +1,7 @@
 - name: "Mayur Naik"
   role: "Instructor"
   image: "images/mayur_naik.png"
-  link: "http://www.cis.upenn.edu/~mhnaik/"
+  url: "http://www.cis.upenn.edu/~mhnaik/"
 
 - name: "Amish Sethi"
   role: "Head TA"

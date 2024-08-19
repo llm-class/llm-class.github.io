@@ -2,49 +2,23 @@
 layout: default
 ---
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CIS 7000: Large Language Models Syllabus</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-    }
-
-    h1,
-    h2,
-    h3 {
-      color: #333;
-    }
-
-    ul {
-      margin-top: 0;
-      padding-left: 20px;
-    }
-  </style>
-</head>
-
-<body>
-  <h1>CIS 7000: Large Language Models (Spring ’24)</h1>
-  <h2>General Information</h2>
+  <h2>CIS 7000: Large Language Models (Spring ’24)</h2>
+  <h3>General Information</h3>
   <ul>
     <li><strong>Instructor:</strong> Mayur Naik</li>
     <li><strong>Credit Units:</strong> 1 CU </li>
-    <li><strong>Class Schedule:</strong> Lecture: 3 hours/week on Monday and Wednesday</li>
+    <li><strong>Class Schedule:</strong> Lectures for 3 hours/week on Mondays and Wednesdays; occasional recitations on Fridays</li>
     <li><strong>Prerequisites:</strong>
       <ul>
-        <li>CIS 520 or equivalent: Mathematical foundations of machine learning</li>
-        <li>CIS 545 or equivalent: Experience with building, training, and debugging machine learning models</li>
+        <li>CIS 5200 or equivalent: Mathematical foundations of machine learning</li>
+        <li>CIS 5450 or equivalent: Experience with building, training, and debugging machine learning models</li>
       </ul>
     </li>
-    <li><strong>Text/Required Materials:</strong> Online papers drawn primarily from machine learning research
-      conferences
+    <li><strong>Text/Required Materials:</strong> Selected papers from machine learning conferences
       (e.g., NeurIPS, ICML, ICLR)</li>
   </ul>
 
-  <h2>Course Description</h2>
+  <h3>Course Description</h3>
   <p>
     This course offers an in-depth exploration of large language models (LLMs) focusing on their design, training, and
     usage. It begins with the attention mechanism and transformer architectures, moves through practical aspects of
@@ -53,29 +27,30 @@ layout: default
     The course aims to equip students with the skills to critically analyze LLM research and apply these concepts in
     real-world scenarios. A solid foundation in machine learning, programming, and deep learning is recommended.
   </p>
-  <h2>Topics Covered</h2>
+  <h3>Topics Covered</h3>
   <ul>
     <li>History of LLMs</li>
     <li>Transformer Architectures</li>
     <li>Model Training Techniques</li>
     <li>Prompt Engineering</li>
     <li>Ethical Considerations and Safety Measures</li>
-    <li>Advanced Integration Techniques (e.g., RAG, Neurosymbolic Learning)</li>
+    <li>Advanced Integration Techniques (e.g., RAG, Agents, Neurosymbolic Learning)</li>
   </ul>
 
-  <h2>Weekly Schedule</h2>
+  <h3>Weekly Schedule</h3>
   <ul>
-    <li><strong>Week 1:</strong> Introduction to LLMs</li>
+    <li><strong>Week 1:</strong> Course Introduction</li>
     <li><strong>Weeks 2-3:</strong> The Transformer Architecture</li>
-    <li><strong>Week 4:</strong> Pre-training (Data Processing, Infrastructure, Scaling Laws)</li>
-    <li><strong>Week 5:</strong> Post-training (Instruction Tuning, Alignment, Evaluation)</li>
-    <li><strong>Week 6:</strong> Adaptation</li>
-    <li><strong>Week 7:</strong> Fast and Efficient Inference (Quantization, Flash Attention)</li>
-    <li><strong>Week 8:</strong> Prompting</li>
+    <li><strong>Weeks 4-5:</strong> Pre-training (Data Preparation, Parallelism, Scaling Laws, Instruction Tuning, Alignment, Evaluation)</li>
+    <li><strong>Week 6:</strong> Adaptation (Parameter-Efficient Fine-Tuning Techniques and Design Spaces)</li>
+    <li><strong>Week 7:</strong> Prompting Techniques</li>
+    <li><strong>Week 8:</strong> Fast and Efficient Inference (Quantization, vLLM Framework, Flash Attention, Sparsification/Distillation)</li>
     <li><strong>Week 9:</strong> RAG and Vector DBs</li>
     <li><strong>Week 10:</strong> Agent Frameworks</li>
     <li><strong>Week 11:</strong> Neurosymbolic Architectures</li>
-    <li><strong>Weeks 12-13:</strong> Project Presentations</li>
+    <li><strong>Weeks 12:</strong> Course Wrap-Up</li>
+    <li><strong>Weeks 13-14:</strong> Project - Conception, Design, Implementation, Evaluation</li>
+    <li><strong>Weeks 15-16:</strong> Project - Report and Presentation</li>
   </ul>
 
   <h2>Course Objectives</h2>
@@ -90,12 +65,12 @@ layout: default
 
     <h2>Grading Details</h2>
     <p>
-      The course comprises two major concurrent activities:
+      The course comprises three major activities:
     </p>
     <ul>
-      <li><strong>Homeworks:</strong> Hands-on assignments involving the implementation and evaluation of LLM techniques,
-        primarily in Python.</li>
-      <li><strong>Lectures:</strong> Covering LLM concepts, supplemented with technical papers for deeper study.</li>
+      <li><strong>Homeworks:</strong> Programming assignments involving implementation of different LLM techniques.</li>
+      <li><strong>Lectures:</strong> Covering LLM concepts supplemented with readings and guest lectures. Attendance is mandatory!</li>
+      <li><strong>Project:</strong> Deep-dive into implementing and analyzing an LLM technique in teams of 2-3 students.</li>
     </ul>
     <p><strong>Grading Rubric:</strong></p>
     <ul>
@@ -103,5 +78,3 @@ layout: default
       <li>30% Project</li>
       <li>5% Class Participation</li>
     </ul>
-    </body>
-    </html>
