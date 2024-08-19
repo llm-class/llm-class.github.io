@@ -31,12 +31,13 @@
       topic: "Pre-Training: Part 1"
       details: "Topics: Data Preparation, Case Study (Phi family of models), Emerging Data Trends, Model Initialization."
       class: "lecture"
+    - date: "Sun Sep 15"
+      details: "<b>HW1 Part 1</b> due (11:59 pm EST)."
+      class: "sub_deadline"
 
 - week: "Week 4"
   items:
-    - date: "Sun Sep 15"
-      topic: "Homework 1 Part 1 Due"
-      class: "sub_deadline"
+
     - date: "Mon Sep 16"
       topic: "Guest Lecture by TBD"
       class: "guest_lecture"
@@ -44,12 +45,12 @@
       topic: "Pre-Training: Part 2"
       details: "Topics: Parallelism, Case Study (Llama 3), Scaling Laws, Evaluation, Instruction Following/Tuning, Alignment."
       class: "lecture"
+    - date: "Sun Sep 22"
+      details: "<b>HW1 Part 2</b> due (11:59 pm EST)."
+      class: "sub_deadline"
 
 - week: "Week 5"
   items:
-    - date: "Sun Sep 22"
-      topic: "Homework 1 Part 2 Due"
-      class: "sub_deadline"
     - date: "Mon Sep 23"
       details: "Check-ins by TAs for <b>HW1</b> (Instructor away)"
       class: "lecture"
@@ -58,14 +59,13 @@
       details: "Topics: RLHF, Reward Modeling. <br> Reading: <a href=\"https://arxiv.org/abs/2405.19320\">Value-Incentivized Preference Optimization: A Unified Approach to Online and Offline RLHF</a>"
       class: "guest_lecture"
     - date: "Sun Sep 29"
-      details: "<b>HW1</b> due (11:59 pm EST)"
+      details: "<b>HW1</b> due (11:59 pm EST)."
       class: "work_due"
+
 
 - week: "Week 6"
   items:
-    - date: "Sun Sep 29"
-      topic: "Homework 1 Final Submission due"
-      class: "work_due"
+
     - date: "Mon Sep 30"
       topic: "Adaptation - Part 1"
       details: "Topics: Motivation, Taxonomy, Additive Techniques, Reparameterization Techniques, Design Spaces  <br> Homework 2 released."
