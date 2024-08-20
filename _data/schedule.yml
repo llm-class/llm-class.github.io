@@ -115,6 +115,7 @@
     - date: "Mon Oct 28"
       class: "guest_lecture"
       topic: "Guest Lecture by <a href=\"https://www.linkedin.com/in/harsha340/\">Ram Sriharsa</a>, Pinecone"
+      details: "Topics: LLM Hallucinations, RAG, Vector DBs."
     - date: "Wed Oct 30"
       class: "lecture"
       topic: "Agent Frameworks"
