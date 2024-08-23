@@ -22,6 +22,11 @@
   affiliation: "OpenAI"
   image: "images/jason_wei.png"
 
+- name: "Guangxuan Xiao"
+  url: "https://guangxuanx.com/"
+  title: "Ph.D. Candidate"
+  affiliation: MIT
+  image: "images/guangxuan_xiao.jpg"
 - name: "Denny Zhou"
   url: "https://dennyzhou.github.io/"
   title: "Principal Scientist & Research Director"
