@@ -150,7 +150,8 @@
       details: "Project Introduction <br> Presentations on December 2, 4, and 9"
     - date: "Wed Nov 20"
       class: "guest_lecture"
-      topic: "Guest Lecture by TBD"
+      topic: "Guest Lecture by <a href=\"https://www.jasonwei.net/\">Jason Wei</a>, OpenAI"
+
 - week: "Week 14"
   items:
     - date: "Mon Nov 25"
