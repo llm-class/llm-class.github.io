@@ -1,7 +1,7 @@
 
 - id: "0"
   title: "Exploring LLMs"
-  description: "An introductory assignment comparing and analyzing outputs from different large language models."
+  description: "An introductory assignment comparing and analyzing outputs from different LLMs."
   due_dates:
     - "Sun Sep 08"  # Only one due date for this assignment
 
