@@ -1,41 +1,6 @@
 ---
 layout: default
 ---
-
-<div class='row'>
-  <div class='col-md-12'>
-    <p>
-      There are going to be 5 homeworks in the course:
-    </p>
-    <center>
-      <table border="1">
-        <tr>
-          <th><b>&nbsp;#&nbsp;</b></th>
-          <th><b>Title</b></th>
-          <th><b>Description</b></th>
-          <th><b>Due Dates</b></th>
-          </tr>
-          {% for assignment in site.data.assignments %}
-          <tr>
-          <td>HW{{assignment.id}}&nbsp;</td>
-          <td>&nbsp;<a href="{{site.baseurl}}/assignments/{{assignment.id}}.pdf">{{assignment.title}}</a></td>
-          <td>&nbsp;{{assignment.description}}</td>
-          <td>
-            {% if assignment.due_dates %}
-            {% for date in assignment.due_dates %}
-            <li>{{ date }}</li>
-            {% endfor %}
-            {% else %}
-            <p>Due dates TBD</p>
-            {% endif %}
-          </td>
-          </tr>
-          {% endfor %}
-          </table>
-    </center>
-  </div>
-</div>
-
 <style>
   table {
     width: 80%;
@@ -71,3 +36,49 @@ layout: default
     text-decoration: underline;
   }
 </style>
+
+<div class='row'>
+  <div class='col-md-12'>
+    <h4>Homework Overview</h4>
+    <p>
+      There are 5 programming assignments described in the table below. 
+    </p>
+
+    <center>
+      <table border="1">
+        <tr>
+          <th><b>&nbsp;#&nbsp;</b></th>
+          <th><b>Title</b></th>
+          <th><b>Description</b></th>
+          <th><b>Due Dates</b></th>
+          </tr>
+          {% for assignment in site.data.assignments %}
+          <tr>
+          <td>HW{{assignment.id}}&nbsp;</td>
+          <td>&nbsp;<a href="{{site.baseurl}}/assignments/{{assignment.id}}.pdf">{{assignment.title}}</a></td>
+          <td>&nbsp;{{assignment.description}}</td>
+          <td>
+            {% if assignment.due_dates %}
+            {% for date in assignment.due_dates %}
+            <li>{{ date }}</li>
+            {% endfor %}
+            {% else %}
+            <p>Due dates TBD</p>
+            {% endif %}
+          </td>
+          </tr>
+          {% endfor %}
+          </table>
+    </center>
+<br>
+     <h4>Collaboration Policy</h4>
+	<ul>
+		<li>Homeworks must be done individually and without discussing with fellow students.  There will be ample opportunities to seek help from the course staff.</li>
+		<li>Each submission must clearly state any assistance that you have given or received. This includes any assistance you received from AI systems like chatGPT. Such assistance is unavoidable -- and even encouraged -- in today's world but students must consult with the course staff about the extent of such assistance in advance.</li>
+		<li>You should not post your solutions online (e.g. in public Github repos) even after the course has ended.</li>
+		 <li>Plagiarism may result in a mandatory drop in the letter grade, referral to the <a href="https://csa.upenn.edu/">Center for Community Standards and Accountability (CSA)</a>, or a failing grade.</li>
+	</ul>
+    </p>
+  </div>
+</div>
+
