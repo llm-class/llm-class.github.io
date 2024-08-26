@@ -13,3 +13,8 @@ body {
     object-fit: cover; /* Ensures the image covers the circle area */
 }
 
+.header-colored {
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+}
+
