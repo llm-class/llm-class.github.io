@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<h4>Note: Some speakers are tentative!</h4>
+
 <div class="row">
     {% for speaker in site.data.speakers %}
         <!-- Determine whether the row is odd or even -->
@@ -18,6 +20,9 @@ layout: default
                     <h5><a href="{{ speaker.url }}">{{ speaker.name }}</a></h5>
                     <p class="mb-1"><strong>{{ speaker.title }}</strong></p>
                     <p>{{ speaker.affiliation }}</p>
+                    {% if speaker.note %}
+                         <p><b>{{ speaker.note }}</b></p>
+                    {% endif %}
                 </div>
             </div>
         </div>
