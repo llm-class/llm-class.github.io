@@ -18,13 +18,6 @@
   affiliation: "Google Brain"
   image: "images/hanjun_dai.jpg"
 
-- name: "Tim Dettmers"
-  url: "https://timdettmers.com/about/"
-  title: "Research Scientist"
-  note: "(tentative)"
-  affiliation: "Allen Institute for Artificial Intelligence (Ai2) and Carnegie Mellon University (CMU)"
-  image: "images/tim_dettmers.webp"
-
 - name: "Ram Sriharsha"
   url: "https://www.linkedin.com/in/harsha340/"
   title: "CTO"
