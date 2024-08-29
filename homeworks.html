@@ -1,43 +1,6 @@
 ---
 layout: default
 ---
-
-<div class='row'>
-  <div class='col-md-12'>
-    <p>
-      There are going to be 5 homeworks in the course:
-    </p>
-    <center>
-      <table border="1">
-        <tr>
-          <th><b>&nbsp;#&nbsp;</b></th>
-          <th><b>Title</b></th>
-          <th><b>Description</b></th>
-          <th><b>Due Dates</b></th>
-          </tr>
-          {% for assignment in site.data.assignments %}
-          <tr>
-          <td>HW{{assignment.id}}&nbsp;</td>
-          <td>&nbsp;<a
-              href="https://colab.research.google.com/drive/1TSNZAtdHZ9hH8R_tWMRw1GbDB1-X9f4l?usp=sharing">{{assignment.title}}</a>
-          </td>
-          <td>&nbsp;{{assignment.description}}</td>
-          <td>
-            {% if assignment.due_dates %}
-            {% for date in assignment.due_dates %}
-            <li>{{ date }}</li>
-            {% endfor %}
-            {% else %}
-            <p>Due dates TBD</p>
-            {% endif %}
-          </td>
-          </tr>
-          {% endfor %}
-          </table>
-    </center>
-  </div>
-</div>
-
 <style>
   table {
     width: 80%;
@@ -73,3 +36,41 @@ layout: default
     text-decoration: underline;
   }
 </style>
+
+<div class='row'>
+  <div class='col-md-12'>
+    <h4>Homework Overview</h4>
+    <p>
+      There are 5 programming assignments described in the table below.
+    </p>
+
+    <center>
+      <table border="1">
+        <tr>
+          <th><b>&nbsp;#&nbsp;</b></th>
+          <th><b>Title</b></th>
+          <th><b>Description</b></th>
+          <th><b>Due Dates</b></th>
+        </tr>
+        {% for assignment in site.data.assignments %}
+        <tr>
+          <td>HW{{assignment.id}}&nbsp;</td>
+          <td>&nbsp;<a href="{{ assignment.link }}">{{assignment.title}}</a></td>
+          <td>&nbsp;{{assignment.description}}</td>
+          <td>
+            {% if assignment.due_dates %}
+            <ul style="list-style-type:none; padding-left:0;">
+              {% for date in assignment.due_dates %}
+              <li>{{ date }}</li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            <p>Due dates TBD</p>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </table>
+    </center>
+  </div>
+</div>

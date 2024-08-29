@@ -1,8 +1,16 @@
-- name: "Ram Sriharsha"
-  url: "https://www.linkedin.com/in/harsha340/"
-  title: "CTO"
-  affiliation: "Pinecone"
-  image: "images/ram_sriharsha.jpg"
+- name: "Aakanksha Chowdhery"
+  url: "https://www.achowdhery.com/"
+  title: "Senior Staff Research Scientist"
+  note: "(tentative)"
+  affiliation: "Meta"
+  image: "images/aakanksha_chowdhery.jpeg"
+
+- name: "Hyung Won Chung"
+  url: "https://hwchung27.github.io/"
+  title: "Research Scientist"
+  note: "(tentative)"
+  affiliation: "OpenAI"
+  image: "images/hyung_won_chung.jpeg"
 
 - name: "Hanjun Dai"
   url: "https://hanjun-dai.github.io/"
@@ -10,14 +18,33 @@
   affiliation: "Google Brain"
   image: "images/hanjun_dai.jpg"
 
+- name: "Ram Sriharsha"
+  url: "https://www.linkedin.com/in/harsha340/"
+  title: "CTO"
+  affiliation: "Pinecone"
+  image: "images/ram_sriharsha.jpg"
+
 - name: "Kai Sheng Tai"
   url: "https://kaishengtai.github.io/"
   title: "Research Scientist"
   affiliation: "Meta AI"
   image: "images/kai_sheng_tai.jpg"
 
+- name: "Jason Wei"
+  url: "https://www.jasonwei.net/"
+  title: "Member of the Technical Staff"
+  affiliation: "OpenAI"
+  image: "images/jason_wei.png"
+
+- name: "Guangxuan Xiao"
+  url: "https://guangxuanx.com/"
+  title: "Ph.D. Candidate"
+  affiliation: MIT
+  image: "images/guangxuan_xiao.jpg"
+
 - name: "Denny Zhou"
   url: "https://dennyzhou.github.io/"
   title: "Principal Scientist & Research Director"
   affiliation: "Google DeepMind"
   image: "images/denny_zhou.jpeg"
+

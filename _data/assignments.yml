@@ -1,29 +1,36 @@
-
 - id: "0"
   title: "Exploring LLMs"
-  description: "An introductory assignment comparing outputs from different large language models."
+  description: "An introductory assignment comparing and analyzing outputs from different LLMs."
+  link: "https://colab.research.google.com/drive/1TSNZAtdHZ9hH8R_tWMRw1GbDB1-X9f4l?usp=chrome_ntp"
   due_dates:
     - "Sun Sep 08"  # Only one due date for this assignment
 
 - id: "1"
   title: "Transformer from Scratch"
   description: "Build and understand the Transformer architecture from the ground up."
+  link: ""
   due_dates:
-    - "Sun Sep 22"  
-    - "Sun Sep 29" 
-    - "Sun Oct 06" 
-
+    - "Sun Sep 15 (Part 1)"
+    - "Sun Sep 22 (Part 2)"
+    - "Sun Sep 29"
 
 - id: "2"
   title: "Finetuning LLMs"
+  description: "Explore techniques to adapt pre-trained LLMs to new tasks in an efficient and performant manner."
+  link: ""
   due_dates:
-
+    - "Sun Oct 20"
 
 - id: "3"
   title: "LLM Compression"
+  description: "Leverage patterns in pretrained weights to compress LLMs for memory-efficient inference and finetuning."
+  link: ""
   due_dates:
-
+    - "Sun Nov 10"
 
 - id: "4"
   title: "Neurosymbolic and Advanced Topics"
+  description: "Investigate the intersection of LLMs with symbolic reasoning and apply it towards challenging reasoning tasks."
+  link: ""
   due_dates:
+   - "Sun Dec 01"
