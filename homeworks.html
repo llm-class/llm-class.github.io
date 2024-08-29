@@ -18,7 +18,9 @@ layout: default
           {% for assignment in site.data.assignments %}
           <tr>
           <td>HW{{assignment.id}}&nbsp;</td>
-          <td>&nbsp;<a href="{{site.baseurl}}/assignments/{{assignment.id}}.pdf">{{assignment.title}}</a></td>
+          <td>&nbsp;<a
+              href="https://colab.research.google.com/drive/1TSNZAtdHZ9hH8R_tWMRw1GbDB1-X9f4l?usp=sharing">{{assignment.title}}</a>
+          </td>
           <td>&nbsp;{{assignment.description}}</td>
           <td>
             {% if assignment.due_dates %}
