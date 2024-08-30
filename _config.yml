@@ -13,4 +13,6 @@ navigation:
          link: /calendar.html
        - name: Staff
          link: /staff.html
+       - name: Sponsor
+         link: /sponsor.html
 markdown: kramdown
