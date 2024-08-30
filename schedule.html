@@ -75,7 +75,13 @@ th {
           <td class="nowrap">{{ item.date }}</td>
           <td>
           {% if item.topic %}
-              <b>{{ item.topic }}</b>
+              <b>
+                  {% if item.link %}
+                     <a href="{{ item.link }}">{{ item.topic }}</a>
+                  {% else %}
+                     {{ item.topic }}
+                  {% endif %}
+              </b>
               {% if item.details %}
                   <br>
               {% endif %}

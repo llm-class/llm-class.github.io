@@ -4,6 +4,7 @@
       topic: "Introduction and Course Overview"
       details: "Topics: Course Logistics, Overview of LLMs, Background (Language Modeling, Perplexity, Deep Neural Networks, Embeddings). <br> <b>HW0</b> released."
       class: "lecture"
+      link: "slides/Lecture 1 - Introduction and Course Overview.pdf"
 
 - week: "Week 2"
   items:
