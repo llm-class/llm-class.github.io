@@ -18,6 +18,12 @@
   affiliation: "Google Brain"
   image: "images/hanjun_dai.jpg"
 
+- name: "Yann Dubois"
+  url: "https://yanndubs.github.io/"
+  title: "Ph.D. Candidate"
+  affiliation: "Stanford University"
+  image: "images/yann_dubois.jpg"
+
 - name: "Ram Sriharsha"
   url: "https://www.linkedin.com/in/harsha340/"
   title: "CTO"
