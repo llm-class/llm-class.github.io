@@ -154,8 +154,8 @@
 - week: "Week 14"
   items:
     - date: "Mon Nov 25"
-      class: "lecture"
-      details: "No class - Work on HW4 and Project"
+      class: "guest_lecture"
+      topic: "Guest Lecture by <a href=\"https://www.achowdhery.com/\">Aakanksha Chowdhery</a>, Meta"
     - date: "Wed Nov 27"
       class: "lecture"
       details: "No class - Work on HW4 and Project"

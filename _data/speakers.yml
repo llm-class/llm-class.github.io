@@ -1,7 +1,6 @@
 - name: "Aakanksha Chowdhery"
   url: "https://www.achowdhery.com/"
   title: "Senior Staff Research Scientist"
-  note: "(tentative)"
   affiliation: "Meta"
   image: "images/aakanksha_chowdhery.jpeg"
 
@@ -23,6 +22,12 @@
   title: "Ph.D. Candidate"
   affiliation: "Stanford University"
   image: "images/yann_dubois.jpg"
+
+- name: "Vijay Krishnan"
+  url: "http://i.stanford.edu/~kvijay/"
+  title: "Founder and CTO"
+  affiliation: "Turing"
+  image: "images/vijay_krishnan.jpeg"
 
 - name: "Ram Sriharsha"
   url: "https://www.linkedin.com/in/harsha340/"
