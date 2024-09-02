@@ -15,23 +15,6 @@ layout: default
   <hr width="100%"/>
 </div>
 
-<!--
-<div class="row">
-	<div class="col-md-12">
-		<div class='page-header'><h4>News</h4></div>
-	</div>
-	<div class="col-md-12">
-		<ul>
-		{% for news in site.data.news %}
-		<li>	<b>	{{news.date}}: </b>
-				{{news.content}}
-		</li>
-		{% endfor %}
-	</ul>
-		</div>
-</div>
--->
-
 <div class='row'>
     <div class="col-md-12">
         <div style="background-color: #d0f0fd; padding: 5px; margin-bottom: 10px; border-radius: 8px;">
@@ -46,5 +29,20 @@ layout: default
             <b>Agent:</b> Just two years ago, chatGPT was launched and forever transformed our world. Since then, the technology powering it, called large language models (LLMs), has rapidly evolved and is poised to become indispensable in various industries. From enhancing customer service and automating content creation to driving innovations in research and education, LLMs have proven their transformative potential. This course will guide you through the fundamentals of LLMs, explore their practical applications, and equip you with the skills to harness their power effectively. Whether you're a developer, researcher, or enthusiast, you'll gain a deep understanding of how LLMs are shaping the future.
         </div>
     </div>
+</div>
+
+<div class="row">
+	<div class="col-md-12">
+		<div class='page-header'><h4>News</h4></div>
+	</div>
+	<div class="col-md-12">
+		<ul>
+		{% for news in site.data.news %}
+		<li>	<b>	{{news.date}}: </b>
+				{{news.content}}
+		</li>
+		{% endfor %}
+	</ul>
+		</div>
 </div>
 
