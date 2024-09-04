@@ -15,6 +15,7 @@
       class: "lecture"
       topic: "The Pre-Transformer Era"
       details: "Topics: Background (Language Modeling, Perplexity Evaluation, Feedforward Networks), RNNs, Simple Attention Mechanism."
+      link: "slides/Lecture 2 - The Pre-Transformer Era.pdf"
     - date: "Sun Sep 08"
       class: "work_due"
       details: "<b>HW0</b> due."
