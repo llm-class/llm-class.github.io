@@ -18,8 +18,8 @@ layout: default
                 <!-- Description (conditionally placed right or left) -->
                 <div>
                     <h5><a href="{{ speaker.url }}">{{ speaker.name }}</a></h5>
-                    <p>{{ speaker.title }}</p>
-                    <p class="mb-1"><strong>{{ speaker.affiliation }}</strong></p>
+                    <p>{{ speaker.title }} <br>
+                    <strong>{{ speaker.affiliation }}</strong></p>
                     {% if speaker.note %}
                          <p><b>{{ speaker.note }}</b></p>
                     {% endif %}
