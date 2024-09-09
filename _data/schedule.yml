@@ -4,7 +4,7 @@
       class: "lecture"
       topic: "Introduction and Course Overview"
       details: "Topics: Turing Test, Overview of LLMs, Course Logistics. <br> <b>HW0</b> released."
-      link: "slides/Lecture 1 - Introduction and Course Overview.pdf"
+      link: "[<a href=\"slides/Lecture 1 - Introduction and Course Overview.pdf\">PDF</a>] [<a href=\"https://docs.google.com/presentation/d/1eO_5Ldxy335LYiurQaSuzggpm5e_VuEieqfMPkxlsTQ/edit?usp=sharing\">PPTX</a>]"
 
 - week: "Week 2"
   items:
@@ -15,7 +15,7 @@
       class: "lecture"
       topic: "The Pre-Transformer Era"
       details: "Topics: Background (Language Modeling, Perplexity Evaluation, Feedforward Networks), RNNs, Simple Attention Mechanism."
-      link: "slides/Lecture 2 - The Pre-Transformer Era.pdf"
+      link: "[<a href=\"slides/Lecture 2 - The Pre-Transformer Era.pdf\">PDF</a>]"
     - date: "Sun Sep 08"
       class: "work_due"
       details: "<b>HW0</b> due."

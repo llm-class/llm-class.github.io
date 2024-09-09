@@ -76,10 +76,9 @@ th {
           <td>
           {% if item.topic %}
               <b>
+		  {{ item.topic }}
                   {% if item.link %}
-                     <a href="{{ item.link }}">{{ item.topic }}</a>
-                  {% else %}
-                     {{ item.topic }}
+                     {{ item.link }}
                   {% endif %}
               </b>
               {% if item.details %}
