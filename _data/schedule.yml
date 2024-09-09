@@ -26,7 +26,7 @@
       class: "lecture"
       topic: "From Pytorch to Hugging Face: How to run your own LLM"
       details: "Topics: Pytorch framework and Hugging Face Transformers library. <br> <b>HW1</b> released."
-      link: "[<a href=\"slides/Lecture\ 3\ -\ Pytorch\ and\ Hugging\ Face.pdf\">PDF</a>] [<a href=\"https://docs.google.com/presentation/d/1swlNZDB8BmuHNx1MWF38OTZCK_HH3uWn8XmHrxqs7wc/edit\">PPTX</a>] [<a href="\"https://colab.research.google.com/drive/1sskNfBeoeLqViPd42fAYSWSN59goFjj1\">notebook</a>]"
+      link: "[<a href=\"slides/Lecture\ 3\ -\ Pytorch\ and\ Hugging\ Face.pdf\">PDF</a>] [<a href=\"https://docs.google.com/presentation/d/1swlNZDB8BmuHNx1MWF38OTZCK_HH3uWn8XmHrxqs7wc/edit\">PPTX</a>] [<a href=\"https://colab.research.google.com/drive/1sskNfBeoeLqViPd42fAYSWSN59goFjj1\">notebook</a>]"
     - date: "Wed Sep 11"
       class: "lecture"
       topic: "The Transformer Architecture"
