@@ -31,7 +31,7 @@
       class: "lecture"
       topic: "The Transformer Architecture"
       details: "Topics: Self-Attention, Transformer Block, Input/Output Processing, Types of Transformers, Training and Inference, Case Studies (BERT, GPT-2, Mixtral)."
-      link: "[<a href=\"sides/Lecture\ 4\ -\ The\ Transformer\ Architecture\ -\ Part\ I\">PDF</a>] [<a href=\"https://docs.google.com/presentation/d/1nzJC8LKhIhk-yAAahsdp-SexiRxcTOV8TgSiWi-Wq-s/edit?usp=sharing\">PPTX</a>]"
+      link: "[<a href=\"slides/Lecture\ 4\ -\ The\ Transformer\ Architecture\ -\ Part\ I\">PDF</a>] [<a href=\"https://docs.google.com/presentation/d/1nzJC8LKhIhk-yAAahsdp-SexiRxcTOV8TgSiWi-Wq-s/edit?usp=sharing\">PPTX</a>]"
     - date: "Sun Sep 15"
       class: "sub_deadline"
       details: "<b>HW1 Part 1</b> due."
