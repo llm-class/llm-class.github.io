@@ -58,7 +58,7 @@
       details: "Topics: Benchmarking and Evaluation."
     - date: "Wed Sep 25"
       class: "guest_lecture"
-      topic: "Guest Lecture by <a href=\"https://hanjun-dai.github.io/\">Hanjun Dai</a>, Senior Research Scientist & Research Manager, Google Brain"
+      topic: "Guest Lecture by <a href=\"https://hanjun-dai.github.io/\">Hanjun Dai</a>, Staff Research Scientist & Research Manager, Google Brain"
       details: "Topics: RLHF and Reward Modeling."
     - date: "Sun Sep 29"
       class: "work_due"
