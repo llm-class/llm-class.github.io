@@ -8,7 +8,7 @@
 - id: "1"
   title: "Transformer from Scratch"
   description: "Build and understand the Transformer architecture from the ground up."
-  link: "https://colab.research.google.com/drive/1HqgD_sUUa5hjvj24dlg6XdcOrU4eSRZ4?usp=sharing"
+  link: "https://colab.research.google.com/drive/1S5W_oTGphQoCxfxEtgQ9FHh9EUOVHjSO?usp=sharing"
   due_dates:
     - "Sun Sep 15 (Part 1)"
     - "Sun Sep 22 (Part 2)"
