@@ -10,27 +10,27 @@
   description: "Build and understand the Transformer architecture from the ground up."
   link: "https://colab.research.google.com/drive/1S5W_oTGphQoCxfxEtgQ9FHh9EUOVHjSO?usp=sharing"
   due_dates:
-    - "Sun Sep 15 (Part 1)"
-    - "Sun Sep 22 (Part 2)"
-    - "Sun Sep 29"
+    - "Wed Sep 18 (Part 1)"
+    - "Sun Sep 29 (Part 2)"
+    - "Sun Oct 6"
 
 - id: "2"
   title: "Finetuning LLMs"
   description: "Explore techniques to adapt pre-trained LLMs to new tasks in an efficient and performant manner."
   link: ""
   due_dates:
-    - "Sun Oct 20"
+    - "Sun Oct 27"
 
 - id: "3"
   title: "LLM Compression"
   description: "Leverage patterns in pretrained weights to compress LLMs for memory-efficient inference and finetuning."
   link: ""
   due_dates:
-    - "Sun Nov 10"
+    - "Sun Nov 17"
 
 - id: "4"
   title: "Neurosymbolic and Advanced Topics"
   description: "Investigate the intersection of LLMs with symbolic reasoning and apply it towards challenging reasoning tasks."
   link: ""
   due_dates:
-   - "Sun Dec 01"
+   - "Sun Dec 08"

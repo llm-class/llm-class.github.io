@@ -59,7 +59,7 @@
       class: "guest_lecture"
       topic: "Guest Lecture by <a href=\"https://hanjun-dai.github.io/\">Hanjun Dai</a>, Staff Research Scientist & Research Manager, Google Brain"
       details: "Topics: RLHF and LLM Reward Modeling."
-    - date: "Wed Sep 25"
+    - date: "Sun Sep 29"
       class: "sub_deadline"
       details: "<b>HW1 Part 2</b> due."
 
@@ -72,7 +72,7 @@
     - date: "Wed Oct 02"
       class: "guest_lecture"
       topic: "Adaptation - Part 2"
-    - date: "Wed Oct 02"
+    - date: "Sun Oct 06"
       class: "work_due"
       details: "<b>HW1</b> due."
 
@@ -97,9 +97,6 @@
       class: "lecture"
       topic: "Guest Lecture by <a href=\"https://guangxuanx.com/\">Guangxuan Xiao</a>, Ph.D. Candidate, MIT" 
       details: "Topics: Quantization."
-    - date: "Sun Oct 20"
-      class: "work_due"
-      details: "<b>HW2</b> due."
 
 - week: "Week 9"
   items:
@@ -111,6 +108,9 @@
       class: "lecture"
       topic: "RAG and Vector DBs"
       details: "Topics: TBD."
+    - date: "Sun Oct 27"
+      class: "work_due"
+      details: "<b>HW2</b> due."
 
 - week: "Week 10"
   items:
@@ -132,9 +132,6 @@
       class: "lecture"
       topic: "Neurosymbolic Architectures"
       details: "Topics: TBD. <br> <b>HW4</b> released."
-    - date: "Sun Nov 10"
-      class: "work_due"
-      details: "<b>HW3</b> due."
 
 - week: "Week 12"
   items:
@@ -145,6 +142,9 @@
     - date: "Wed Nov 13"
       class: "guest_lecture"
       topic: "Guest Lecture by TBD"
+    - date: "Sun Nov 17"
+      class: "work_due"
+      details: "<b>HW3</b> due."
 - week: "Week 13"
   items:
     - date: "Mon Nov 18"
@@ -162,9 +162,6 @@
     - date: "Wed Nov 27"
       class: "lecture"
       details: "No class - Work on HW4 and Project"
-    - date: "Sun Dec 01"
-      class: "work_due"
-      details: "<b>HW4</b> due."
 - week: "Week 15"
   items:
     - date: "Mon Dec 02"
@@ -173,6 +170,9 @@
     - date: "Wed Dec 04"
       class: "work_due"
       details: "Project Presentation Day 2"
+    - date: "Sun Dec 08"
+      class: "work_due"
+      details: "<b>HW4</b> due."
 - week: "Week 16"
   items:
     - date: "Mon Dec 09"
