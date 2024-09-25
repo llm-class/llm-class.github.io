@@ -21,7 +21,9 @@
   title: "Ph.D. Candidate"
   affiliation: "Stanford University"
   image: "images/yann_dubois.jpg"
-
+  date: "Sept 23 (virtual)"
+  bio: "Yann is a final-year CS PhD student advised by Percy Liang and Tatsu Hashimoto. His research focuses on improving the effectiveness of AI when resources are scarce. Most recently, he has been part of the Alpaca team, working on training and evaluating language models more efficiently using other LLMs."
+  abstract: "Evaluation is a cornerstone of machine learning, critical for model development and selection. For LLMs like ChatGPT, evaluation presents unique challenges due to the open-ended nature of their outputs. While human evaluation remains the gold standard, its cost and time-intensive nature make it impractical for rapid development cycles. This talk will provide an overview of scalable approaches to LLM evaluation, focusing on using one LLM to evaluate another. I will discuss the potential benefits and limitations of this approach and explore mitigation strategies for its challenges."
 - name: "Vijay Krishnan"
   url: "http://i.stanford.edu/~kvijay/"
   title: "Founder and CTO"
