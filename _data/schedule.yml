@@ -57,7 +57,7 @@
       details: "Title: Scalable Evaluation of Large Language Models"
     - date: "Wed Sep 25"
       class: "guest_lecture"
-      topic: "Guest Lecture by <a href=\"https://hanjun-dai.github.io/\">Hanjun Dai</a>, Staff Research Scientist & Research Manager, Google Brain"
+      topic: "Guest Lecture by <a href=\"https://hanjun-dai.github.io/\">Hanjun Dai</a>, Staff Research Scientist & Research Manager, Google Brain [<a href=\"slides/Hanjun_Dai.pdf\">slides</a>] [<a href=\"\">video</a>]" 
       details: "Title: Preference Optimization for Large Language Models"
     - date: "Sun Sep 29"
       class: "sub_deadline"
