@@ -6,25 +6,40 @@ layout: default
 
 <div class="row">
     {% for speaker in site.data.speakers %}
-        <!-- Determine whether the row is odd or even -->
-        {% assign row_class = forloop.index | modulo: 2 %}
         <hr width="100%"/>
         <div class="col-12 mb-4">
-            <div class="d-flex align-items-center {% if row_class == 1 %}flex-row{% else %}flex-row-reverse{% endif %}">
-                <!-- Image (conditionally placed left or right) -->
-                <div class="{% if row_class == 1 %}me-5{% else %}ms-5{% endif %}">
-                    <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="rounded-image">
+            <div class="row d-flex align-items-start">
+                <div class="col-lg-2 col-md-3 col-sm-4 mb-3">
+                    <img src="{{ speaker.image }}" alt="{{ speaker.name }}" class="rounded-image img-fluid">
                 </div>
-                <!-- Description (conditionally placed right or left) -->
-                <div>
-                    <h5><a href="{{ speaker.url }}">{{ speaker.name }}</a></h5>
-                    <p>{{ speaker.title }} <br>
-                    <strong>{{ speaker.affiliation }}</strong></p>
-                    {% if speaker.note %}
-                         <p><b>{{ speaker.note }}</b></p>
+                <div class="col-lg-10 col-md-9 col-sm-8">
+                    <p><strong><a href="{{ speaker.url }}">{{ speaker.name }}</a></strong>, {{ speaker.position }}, <strong>{{ speaker.affiliation }}</strong></p>
+                    {% if speaker.title %}
+                         <p><strong>Title:</strong> {{ speaker.title }}</p>
                     {% endif %}
+                    {% if speaker.date %}
+                         <p><strong>Date:</strong> {{ speaker.date }}</p>
+                    {% endif %}
+                    {% if speaker.abstract %}
+                        <p><strong>Abstract:</strong> {{ speaker.abstract }}</p>
+                    {% endif %}
+                    {% if speaker.bio %}
+                        <p><strong>Bio:</strong> {{ speaker.bio }}</p>
+                    {% endif %}
+                    {% if speaker.notes %}
+			<p>{{ speaker.notes }}</p>
+                    {% endif %}
+                    <p>
+                    {% if speaker.video %}
+			<strong>[<a href="{{ speaker.video }}">video</a>]</strong>
+                    {% endif %}
+                    {% if speaker.slides %}
+			<strong>[<a href="{{ speaker.slides }}">slides</a>]</strong>
+                    {% endif %}
+		    </p>
                 </div>
             </div>
         </div>
     {% endfor %}
 </div>
+
