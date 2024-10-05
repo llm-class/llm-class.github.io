@@ -127,7 +127,8 @@
   items:
     - date: "Mon Nov 04"
       class: "guest_lecture"
-      topic: "Guest Lecture by TBD"
+      topic: "Guest Lecture by <a href=\"http://research.google/people/105176/\">Thang Luong</a>, Senior Staff Research Scientist, Google DeepMind"
+
     - date: "Wed Nov 06"
       class: "lecture"
       topic: "Neurosymbolic Architectures"
