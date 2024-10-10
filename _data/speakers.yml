@@ -49,7 +49,11 @@
   position: "Research Scientist"
   affiliation: "OpenAI"
   image: "images/hyung_won_chung.jpeg"
+  title: "Shaping the Future of AI from the History of Transformer"
   date: "Monday October 14 (virtual)"
+  abstract: "AI is developing at such an overwhelming pace that it is hard to keep up. Instead of spending all our energy catching up with the latest development, I argue that we should study the change itself. First step is to identify and understand the driving force behind the change. For AI, it is the exponentially cheaper compute and associated scaling. I will provide a highly-opinionated view on the early history of Transformer architectures, focusing on what motivated each development and how each became less relevant with more compute. This analysis will help us connect the past and present in a unified perspective, which in turn makes it more manageable to project where the field is heading."
+  bio: "Hyung Won Chung is a research scientist at OpenAI. His recent work focuses on o1. He has worked on various aspects of Large Language Models: pre-training, instruction fine-tuning, reinforcement learning with human feedback, reasoning, multilinguality, parallelism strategies, etc. Some of the notable work includes scaling Flan paper (Flan-T5, Flan-PaLM) and T5X, the training framework used to train the PaLM language model. Before OpenAI, he was at Google Brain and before that he received a PhD from MIT."
+  notes: "<b>Supplementary Reading:</b> [<a href=\"https://arxiv.org/abs/1910.10683\">paper 1</a>] [<a href=\"https://arxiv.org/abs/1911.02150\">paper 2</a>]"
 
 - name: "Guangxuan Xiao"
   url: "https://guangxuanx.com/"
