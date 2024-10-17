@@ -69,9 +69,13 @@
       class: "lecture"
       topic: "Adaptation - Part 1"
       details: "Topics: TBD. <br> <b>HW2 </b> released."
+      link: [<a href="https://docs.google.com/presentation/d/1QuVuDc7co0SouJynCG6IqANf1kwPxuvaWesJWo4mxZg/edit?usp=sharing">PPTX</a>]
+      
     - date: "Wed Oct 02"
       class: "guest_lecture"
       topic: "Adaptation - Part 2"
+      link: [<a href="https://docs.google.com/presentation/d/1QuVuDc7co0SouJynCG6IqANf1kwPxuvaWesJWo4mxZg/edit?usp=sharing">PPTX</a>]
+
     - date: "Sun Oct 06"
       class: "work_due"
       details: "<b>HW1</b> due."
