@@ -46,6 +46,7 @@
   abstract: "Reasoning has emerged as a central focus in the development of large language models (LLMs). This talk will largely be based on the work from the reasoning team that I founded and lead in Google DeepMind. I will talk about how we started and explored reasoning with LLMs, including the key ideas like chain of thought and self consistency, and the limitations that we have observed."
   bio: "Denny Zhou is a Principal Scientist / Research Director at Google DeepMind, where he founded and leads the Reasoning Team. He received the Google Research Tech Impact Award for his work on large language models (LLMs) in 2022, and the WSDM Test of Time Award 2022. He delivered distinguished keynotes at KDD 2023's LLM Day, and the Grand Opening of Yale's Institute for Foundations of Data Science in 2023. He is serving as a General Chair for the Conference on Language Modeling (COLM) 2024."
   notes: "<b>Supplementary Reading:</b> [<a href=\"https://arxiv.org/abs/2402.10200\">paper 1</a>] [<a href=\"https://arxiv.org/abs/2402.12875\">paper 2</a>]"
+  slides: "slides/Denny_Zhou.pdf"
 
 - name: "Hyung Won Chung"
   url: "https://hwchung27.github.io/"
@@ -80,6 +81,7 @@
   abstract: "This lecture surveys the many faces of sparsity in the context of efficient LLM inference. First, we cover post-training pruning algorithms that zero-out 50% or more of a trained LLM's parameters while minimizing quality loss. Next, we give an overview of methods that set the sparsity pattern dynamically based on the model's input. Throughout, we will discuss the various tradeoffs that arise when deciding which of these tools to use in practice."
   bio: "Kai Sheng is a Research Scientist at Meta working on inference efficiency for on-device LLMs. Prior to Meta, he received his Ph.D. in CS from Stanford, focusing on algorithms and architectures for resource efficient machine learning."
   notes: "<b>Supplementary Reading:</b> [<a href=\"https://arxiv.org/abs/2301.00774\">paper 1</a>] [<a href=\"https://arxiv.org/abs/2209.01667\">paper 2</a>]"
+  slides: "slides/Kai_Sheng_Tai.pdf"
 
 - name: "Ram Sriharsha"
   url: "https://www.linkedin.com/in/harsha340/"
@@ -87,7 +89,10 @@
   affiliation: "Pinecone"
   image: "images/ram_sriharsha.jpg"
   date: "Monday October 28 (virtual)"
-
+  abstract: "Large Language Models have emerged into mainstream over the last few years. While they have demonstrated some huge successes already, they have also had challenges with hallucinations, difficulty with dealing with new knowledge and in retrieving relevant, accurate knowledge for downstream tasks. In this talk, we will provide a brief overview of the problem, and discuss a promising approach to solving these problems through what is known as Retrieval Augmented Generation (RAG). Alongside, we will also introduce vector databases, what makes them different from traditional databases and how they fit into RAG."
+  bio: "Dr. Ram Sriharsha is the CTO at Pinecone. At Pinecone, Ram is responsible for overseeing the company’s technical direction in both engineering and research. Prior to joining Pinecone, Ram held numerous senior positions at some of the most well-known companies in the tech industry. Most recently, he was Vice President of Engineering at Splunk. Before that, he was a product and engineering lead at Databricks for their unified analytics platform for genomics. Some years after receiving a PhD in Physics from the University of Maryland, Ram was a Principal Software Engineer and later a Principal Research Scientist at Yahoo."
+  notes: "<b>Supplementary Reading:</b> [<a href=\"https://arxiv.org/abs/2005.11401\">paper 1</a>] [<a href=\"https://arxiv.org/abs/2307.03172\">paper 2</a>] [<a href=\"https://www.anthropic.com/news/contextual-retrieval\">blog post</a>]"
+  
 - name: "Thang Luong"
   url: "http://research.google/people/105176/"
   position: "Senior Staff Research Scientist"
