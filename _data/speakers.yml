@@ -102,7 +102,7 @@
   date: "Monday November 4 (virtual)"
   abstract: "In this talk, I will discuss the recent advances in AI for Math such as AlphaGeometry and AlphaProof. Through the talk, I will also share my perspective on the future of AI and hint towards a bigger picture of advancing reasoning capabilities of existing AI systems."
   bio: "Thang Luong is currently a Senior Staff Research Scientist and Senior Manager at Google DeepMind, formerly Google Brain. He obtained his PhD in Computer Science from Stanford University in 2016, during which he pioneered the field of deep learning for machine translation. At Google, Dr. Luong built state-of-the-art models in both language and vision such as ELECTRA and NoisyStudent. He co-founded Project Meena, which debuted the world’s best chatbot in 2020 and later became Google LaMDA chatbot in 2021. Dr. Luong has been co-leading the development of Bard Multimodality since 2022 and is the principal investigator of the AlphaGeometry project (published in Nature, 2024) that solves Olympiad-level geometry problems and competes at the International Mathematical Olympiad (IMO). Recently, he led the Superhuman Reasoning team at Google to build the first AI that reached Silver medalist level at IMO 2024."
-  notes: "<b>Supplementary Reading:</b> [<a href=\"https://www.nature.com/articles/s41586-023-06747-5\">paper</a>] [<a href=\"https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level\">blog</a>"
+  notes: "<b>Supplementary Reading:</b> [<a href=\"https://www.nature.com/articles/s41586-023-06747-5\">paper</a>] [<a href=\"https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level\">blog</a>]"
 
 - name: "Jason Wei"
   url: "https://www.jasonwei.net/"
