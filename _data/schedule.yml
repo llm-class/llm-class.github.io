@@ -46,7 +46,7 @@
       details: "Topics: overall transformer architecture; inference and training; SOTA transformer case studies; drawbacks of transformers."
       link: "[<a href=\"slides/Lecture 6 - The Transformer Architecture - Part II.pdf\">PDF</a>] [<a href=\"https://docs.google.com/presentation/d/1U2ZB1GJKhR7C0zw354_WykYc6Cm-qIb9KDOiV-uYmRY/edit?usp=sharing\">PPTX</a>]"
     - date: "Wed Sep 18"
-      class: "sub_deadline"
+      class: "work_due"
       details: "<b>HW1 Part 1</b> due."
 
 - week: "Week 5"
@@ -60,7 +60,7 @@
       topic: "Guest Lecture by <a href=\"https://hanjun-dai.github.io/\">Hanjun Dai</a>, Staff Research Scientist & Research Manager, Google Brain [<a href=\"slides/Hanjun_Dai.pdf\">slides</a>] [<a href=\"\">video</a>]" 
       details: "Title: Preference Optimization for Large Language Models"
     - date: "Sun Sep 29"
-      class: "sub_deadline"
+      class: "work_due"
       details: "<b>HW1 Part 2</b> due."
 
 - week: "Week 6"
@@ -76,9 +76,6 @@
       topic: "Adaptation - Part 2"
       link: [<a href="https://docs.google.com/presentation/d/1QuVuDc7co0SouJynCG6IqANf1kwPxuvaWesJWo4mxZg/edit?usp=sharing">PPTX</a>]
 
-    - date: "Sun Oct 06"
-      class: "work_due"
-      details: "<b>HW1</b> due."
 
 - week: "Week 7"
   items:
@@ -90,13 +87,15 @@
       class: "guest_lecture"
       topic: "Guest Lecture by <a href=\"https://dennyzhou.github.io/\">Denny Zhou</a>, Principal Scientist & Research Director, Google DeepMind"
       details: "Topics: LLM Reasoning."
+    - date: "Wed Oct 09"
+      class: "work_due"
+      details: "<b>HW1 Part 3</b> due."
 
 - week: "Week 8"
   items:
     - date: "Mon Oct 14"
       class: "guest_lecture"
       topic: "Guest Lecture by <a href=\"https://hwchung27.github.io/\">Hyung Won Chung</a>, Research Scientist, OpenAI"
-      details: "Topics: TBD. <br> <b>HW3</b> released."
     - date: "Wed Oct 16"
       class: "lecture"
       topic: "Guest Lecture by <a href=\"https://guangxuanx.com/\">Guangxuan Xiao</a>, Ph.D. Candidate, MIT" 
@@ -108,13 +107,14 @@
       class: "guest_lecture"
       topic: "Guest Lecture by <a href=\"https://kaishengtai.github.io/\">Kai Sheng Tai</a>, Research Scientist, Meta AI"
       details: "Topics: Efficient Inference."
+    - date: "Mon Oct 21"
+      class: "work_due"
+      details: "<b>HW2 Part 1</b> due."
     - date: "Wed Oct 23"
       class: "lecture"
       topic: "RAG and Vector DBs"
       details: "Topics: TBD."
-    - date: "Sun Oct 27"
-      class: "work_due"
-      details: "<b>HW2</b> due."
+
 
 - week: "Week 10"
   items:
@@ -122,6 +122,9 @@
       class: "guest_lecture"
       topic: "Guest Lecture by <a href=\"https://www.linkedin.com/in/harsha340/\">Ram Sriharsha</a>, Chief Technology Officer, Pinecone"
       details: "Topics: LLM Hallucinations, RAG, Vector DBs."
+    - date: "Mon Oct 28"
+      class: "work_due"
+      details: "<b>HW2 Part 2</b> due."
     - date: "Wed Oct 30"
       class: "lecture"
       topic: "Agent Frameworks"
@@ -136,7 +139,11 @@
     - date: "Wed Nov 06"
       class: "lecture"
       topic: "Neurosymbolic Architectures"
-      details: "Topics: TBD. <br> <b>HW4</b> released."
+      details: "Topics: TBD."
+    - date: "Fri Nov 08"
+      class: "work_due"
+      details: "<b>HW2 Part 3</b> due. <br> <b>HW3 </b> released."
+      
 
 - week: "Week 12"
   items:
@@ -147,17 +154,20 @@
     - date: "Wed Nov 13"
       class: "guest_lecture"
       topic: "Guest Lecture by TBD"
-    - date: "Sun Nov 17"
+    - date: "Fri Nov 15"
       class: "work_due"
-      details: "<b>HW3</b> due."
+      details: "<b>HW3 Part 1</b> due."
 - week: "Week 13"
   items:
     - date: "Mon Nov 18"
       class: "lecture"
-      details: "Project Introduction <br> Presentations on December 2, 4, and 9"
+      details: "Project Work <br> Presentations on December 2, 4, and 9"
     - date: "Wed Nov 20"
       class: "guest_lecture"
       topic: "Guest Lecture by <a href=\"https://www.jasonwei.net/\">Jason Wei</a>, Member of the Technical Staff, OpenAI"
+    - date: "Fri Nov 22"
+      class: "work_due"
+      details: "<b>HW 3 Part 2</b> due."
 
 - week: "Week 14"
   items:
@@ -166,7 +176,7 @@
       topic: "Guest Lecture by <a href=\"https://www.achowdhery.com/\">Aakanksha Chowdhery</a>, Senior Staff Research Scientist, Meta"
     - date: "Wed Nov 27"
       class: "lecture"
-      details: "No class - Work on HW4 and Project"
+      details: "No class - Work on Project"
 - week: "Week 15"
   items:
     - date: "Mon Dec 02"
@@ -175,9 +185,7 @@
     - date: "Wed Dec 04"
       class: "work_due"
       details: "Project Presentation Day 2"
-    - date: "Sun Dec 08"
-      class: "work_due"
-      details: "<b>HW4</b> due."
+
 - week: "Week 16"
   items:
     - date: "Mon Dec 09"
