@@ -109,13 +109,17 @@
   position: "Member of the Technical Staff"
   affiliation: "OpenAI"
   image: "images/jason_wei.png"
+  title: "Scaling Paradigms for Large Language Models"
   date: "Wednesday November 20 (hybrid - Singh Forum)"
+  abstract: "In this talk I will tell you how scaling has been the engine of progress in AI for the past five years. In the first scaling paradigm, our field scaled large language models by training with more compute on more data. Such scaling led to the success of ChatGPT and other AI chat engines, which were surprisingly capable and general purpose. With the release of OpenAI o1, we are at the beginning of a new paradigm where we do not just scale training time compute, but we also scale test-time compute. These new models are trained via reinforcement learning on chain-of-thought reasoning, and by thinking harder for more-challenging tasks can solve even competition-level math and programming problems. I will conclude with a few remarks on how AI research culture has changed and where the field might go next."
+  bio: "Jason Wei is an AI researcher based in San Francisco. He currently works at OpenAI, where he contributed to OpenAI o1, a frontier model trained to do chain-of-thought reasoning via reinforcement learning. From 2020 to 2023, Jason was a research scientist at Google Brain, where his work popularized chain-of-thought prompting, instruction tuning, and emergent phenomena."
 
 - name: "Aakanksha Chowdhery"
   url: "https://www.achowdhery.com/"
   position: "Senior Staff Research Scientist"
   affiliation: "Meta"
   image: "images/aakanksha_chowdhery.jpeg"
+  title: "Multimodal Reasoning and its Applications to Computer Use and Robotics"
   date: "Monday November 25 (virtual)"
-
-
+  abstract: "In this talk, Aakanksha will explore recent advances in multimodal reasoning and the design of agentic workflows for web and Android environments. Drawing from her extensive research experience at Meta, Google, and Microsoft, she will also share key insights into interdisciplinary applications of LLMs."
+  bio: "Aakanksha has been a lead researcher in pre-training of large language models, such as PaLM and Gemini. She led the 540B PaLM model at Google and was a core member of the Gemini, Pathways, PaLM-E and MedPaLM projects. Before Google, she led interdisciplinary teams at Microsoft Research and Princeton University across machine learning, distributed systems and networking. Recently, she is experimenting with agentic workflows in open Llama models at Meta. She completed her PhD in Electrical Engineering from Stanford University and was awarded the Paul Baran Marconi Young Scholar Award for the outstanding scientific contributions in her dissertation."
