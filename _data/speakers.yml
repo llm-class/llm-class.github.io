@@ -21,6 +21,7 @@
   abstract: "Reinforcement Learning (RL) plays a key role in the success of large language models (LLMs), especially the recent breakthrough in scaling the inference time computation for reasoning. In this lecture, we aim at providing a high-level overview of the RL for LLM training, including the policy and the reward modeling, the optimization and the known difficulties in applying RL, in terms of the challenges in both quality and infrastructure. We then cover the alternative approaches for aligning preferences, including direct preference optimization (DPO), best of n (BoN) and the recent advances of research in this direction. We conclude with the comparisons among these preference optimization methods, as well as some open problems in this field."
   bio: "Hanjun is a staff research scientist and research manager at Google DeepMind. He obtained his PhD from Georgia Institute of Technology. His research focuses on efficient generative modeling for text, image and structured data, and the corresponding fundamental algorithms in sampling and optimization. His research outcome has been adopted in OSS projects and launched in Google Workspace, Gemini and Cloud AI. His work has been recognized by the 2022 Google Research tech impact award, AISTATS 2016 best student paper and best workshop papers in Recsys and Neurips. He has also served as the Area Chair in top-tier conferences including AAAI, ICML, NeurIPS, co-organized workshops and tutorials in ICML, NeurIPS, LoG."
   notes: "<b>Supplementary Reading:</b> Basic topics [<a href=\"https://arxiv.org/abs/2203.02155\">paper 1</a>] [<a href=\"https://arxiv.org/abs/2305.18290\">paper 2</a>] [<a href=\"https://arxiv.org/abs/2404.10719v1\">paper 3</a>] and advanced topics [<a href=\"https://arxiv.org/abs/2310.12036\">paper 1</a>] [<a href=\"https://arxiv.org/abs/2405.19320\">paper 2</a>] [<a href=\"https://arxiv.org/abs/2407.14622\">paper 3</a>] [<a href=\"https://arxiv.org/abs/2406.00832\">paper 4</a>]"
+  video: "https://youtu.be/kOdl-ncrYDk"
   slides: "slides/Hanjun_Dai.pdf"
 
 - name: "Vijay Krishnan"
@@ -46,6 +47,7 @@
   abstract: "Reasoning has emerged as a central focus in the development of large language models (LLMs). This talk will largely be based on the work from the reasoning team that I founded and lead in Google DeepMind. I will talk about how we started and explored reasoning with LLMs, including the key ideas like chain of thought and self consistency, and the limitations that we have observed."
   bio: "Denny Zhou is a Principal Scientist / Research Director at Google DeepMind, where he founded and leads the Reasoning Team. He received the Google Research Tech Impact Award for his work on large language models (LLMs) in 2022, and the WSDM Test of Time Award 2022. He delivered distinguished keynotes at KDD 2023's LLM Day, and the Grand Opening of Yale's Institute for Foundations of Data Science in 2023. He is serving as a General Chair for the Conference on Language Modeling (COLM) 2024."
   notes: "<b>Supplementary Reading:</b> [<a href=\"https://arxiv.org/abs/2402.10200\">paper 1</a>] [<a href=\"https://arxiv.org/abs/2402.12875\">paper 2</a>]"
+  video: "https://youtu.be/-SZAciVbswk"
   slides: "slides/Denny_Zhou.pdf"
 
 - name: "Hyung Won Chung"
@@ -58,6 +60,7 @@
   abstract: "AI is developing at such an overwhelming pace that it is hard to keep up. Instead of spending all our energy catching up with the latest development, I argue that we should study the change itself. First step is to identify and understand the driving force behind the change. For AI, it is the exponentially cheaper compute and associated scaling. I will provide a highly-opinionated view on the early history of Transformer architectures, focusing on what motivated each development and how each became less relevant with more compute. This analysis will help us connect the past and present in a unified perspective, which in turn makes it more manageable to project where the field is heading."
   bio: "Hyung Won Chung is a research scientist at OpenAI. His recent work focuses on o1. He has worked on various aspects of Large Language Models: pre-training, instruction fine-tuning, reinforcement learning with human feedback, reasoning, multilinguality, parallelism strategies, etc. Some of the notable work includes scaling Flan paper (Flan-T5, Flan-PaLM) and T5X, the training framework used to train the PaLM language model. Before OpenAI, he was at Google Brain and before that he received a PhD from MIT."
   notes: "<b>Supplementary Reading:</b> [<a href=\"https://arxiv.org/abs/1910.10683\">paper 1</a>] [<a href=\"https://arxiv.org/abs/1911.02150\">paper 2</a>]"
+  video: "https://youtu.be/c_9bxtyOd1o"
 
 - name: "Guangxuan Xiao"
   url: "https://guangxuanx.com/"
@@ -69,6 +72,7 @@
   abstract: "Large language models (LLMs) achieve state-of-the-art performance across a wide range of AI applications but demand significant compute and memory resources, limiting their deployment on edge devices and cloud servers alike. Quantization, which reduces model precision to accelerate inference and lower memory usage, offers a promising solution, yet it comes with unique challenges when applied to LLMs.<br><br> In this talk, I will present a series of cutting-edge quantization techniques developed by our lab to address these challenges. We begin with SmoothQuant, a post-training quantization method that enables INT8 weight and activation quantization, preserving accuracy and achieving up to 1.56x speedup and 2x memory reduction across models such as Llama-2, OPT, and Falcon. Then, we explore AWQ, a hardware-efficient, activation-aware weight quantization technique for low-bit, on-device LLMs, which delivers superior accuracy and more than 3x speedup on edge GPUs. Finally, we introduce QServe, an innovative W4A8KV4 quantization and system co-design solution for large-batch LLM serving, which significantly reduces GPU dequantization overhead and improves throughput by up to 3.5x compared to existing frameworks.<br><br> These advancements collectively offer practical, scalable solutions for efficient LLM deployment in both cloud and edge environments, democratizing access to powerful language models while optimizing hardware costs."
   bio: "Guangxuan Xiao is a third-year Ph.D. candidate at MIT EECS, advised by Prof. Song Han. He focuses on creating efficient algorithms for deep learning, especially for large language models (LLMs). His work has earned widespread attention, receiving over 9,000 GitHub stars and making a tangible impact on industry practices. His key contributions, including SmoothQuant and StreamingLLM, have been widely adopted and integrated into platforms such as NVIDIA's TensorRT-LLM, HuggingFace, and Intel's Neural Compressor."
   notes: "<b>Supplementary Reading:</b> [<a href=\"https://arxiv.org/abs/2211.10438\">paper 1</a>] [<a href=\"https://arxiv.org/abs/2306.00978\">paper 2</a>] [<a href=\"https://arxiv.org/abs/2405.04532\">paper 3</a>]"
+  video: "https://youtu.be/a3FOPHd3Ey4"
   slides: "slides/Guangxuan_Xiao.pdf"
 
 - name: "Kai Sheng Tai"
@@ -81,6 +85,7 @@
   abstract: "This lecture surveys the many faces of sparsity in the context of efficient LLM inference. First, we cover post-training pruning algorithms that zero-out 50% or more of a trained LLM's parameters while minimizing quality loss. Next, we give an overview of methods that set the sparsity pattern dynamically based on the model's input. Throughout, we will discuss the various tradeoffs that arise when deciding which of these tools to use in practice."
   bio: "Kai Sheng is a Research Scientist at Meta working on inference efficiency for on-device LLMs. Prior to Meta, he received his Ph.D. in CS from Stanford, focusing on algorithms and architectures for resource efficient machine learning."
   notes: "<b>Supplementary Reading:</b> [<a href=\"https://arxiv.org/abs/2301.00774\">paper 1</a>] [<a href=\"https://arxiv.org/abs/2209.01667\">paper 2</a>]"
+  video: "https://youtu.be/lIuHPxsgymU"
   slides: "slides/Kai_Sheng_Tai.pdf"
 
 - name: "Ram Sriharsha"
@@ -88,11 +93,13 @@
   position: "CTO"
   affiliation: "Pinecone"
   image: "images/ram_sriharsha.jpg"
+  title: "Knowledge Models Combine Retrieval with Generation: An Introduction to RAG"
   date: "Monday October 28 (virtual)"
   abstract: "Large Language Models have emerged into mainstream over the last few years. While they have demonstrated some huge successes already, they have also had challenges with hallucinations, difficulty with dealing with new knowledge and in retrieving relevant, accurate knowledge for downstream tasks. In this talk, we will provide a brief overview of the problem, and discuss a promising approach to solving these problems through what is known as Retrieval Augmented Generation (RAG). Alongside, we will also introduce vector databases, what makes them different from traditional databases and how they fit into RAG."
   bio: "Dr. Ram Sriharsha is the CTO at Pinecone. At Pinecone, Ram is responsible for overseeing the company’s technical direction in both engineering and research. Prior to joining Pinecone, Ram held numerous senior positions at some of the most well-known companies in the tech industry. Most recently, he was Vice President of Engineering at Splunk. Before that, he was a product and engineering lead at Databricks for their unified analytics platform for genomics. Some years after receiving a PhD in Physics from the University of Maryland, Ram was a Principal Software Engineer and later a Principal Research Scientist at Yahoo."
   notes: "<b>Supplementary Reading:</b> [<a href=\"https://arxiv.org/abs/2005.11401\">paper 1</a>] [<a href=\"https://arxiv.org/abs/2307.03172\">paper 2</a>] [<a href=\"https://www.anthropic.com/news/contextual-retrieval\">blog post</a>]"
-  
+  video: "https://youtu.be/VQixDqv9r4Q"
+
 - name: "Thang Luong"
   url: "http://research.google/people/105176/"
   position: "Senior Staff Research Scientist"
@@ -103,6 +110,7 @@
   abstract: "In this talk, I will discuss the recent advances in AI for Math such as AlphaGeometry and AlphaProof. Through the talk, I will also share my perspective on the future of AI and hint towards a bigger picture of advancing reasoning capabilities of existing AI systems."
   bio: "Thang Luong is currently a Senior Staff Research Scientist and Senior Manager at Google DeepMind, formerly Google Brain. He obtained his PhD in Computer Science from Stanford University in 2016, during which he pioneered the field of deep learning for machine translation. At Google, Dr. Luong built state-of-the-art models in both language and vision such as ELECTRA and NoisyStudent. He co-founded Project Meena, which debuted the world’s best chatbot in 2020 and later became Google LaMDA chatbot in 2021. Dr. Luong has been co-leading the development of Bard Multimodality since 2022 and is the principal investigator of the AlphaGeometry project (published in Nature, 2024) that solves Olympiad-level geometry problems and competes at the International Mathematical Olympiad (IMO). Recently, he led the Superhuman Reasoning team at Google to build the first AI that reached Silver medalist level at IMO 2024."
   notes: "<b>Supplementary Reading:</b> [<a href=\"https://www.nature.com/articles/s41586-023-06747-5\">paper</a>] [<a href=\"https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level\">blog</a>]"
+  video: "https://youtu.be/y5qEFrZv-2Q"
 
 - name: "Jason Wei"
   url: "https://www.jasonwei.net/"
@@ -113,6 +121,8 @@
   date: "Wednesday November 20 (hybrid - Singh Forum)"
   abstract: "In this talk I will tell you how scaling has been the engine of progress in AI for the past five years. In the first scaling paradigm, our field scaled large language models by training with more compute on more data. Such scaling led to the success of ChatGPT and other AI chat engines, which were surprisingly capable and general purpose. With the release of OpenAI o1, we are at the beginning of a new paradigm where we do not just scale training time compute, but we also scale test-time compute. These new models are trained via reinforcement learning on chain-of-thought reasoning, and by thinking harder for more-challenging tasks can solve even competition-level math and programming problems. I will conclude with a few remarks on how AI research culture has changed and where the field might go next."
   bio: "Jason Wei is an AI researcher based in San Francisco. He currently works at OpenAI, where he contributed to OpenAI o1, a frontier model trained to do chain-of-thought reasoning via reinforcement learning. From 2020 to 2023, Jason was a research scientist at Google Brain, where his work popularized chain-of-thought prompting, instruction tuning, and emergent phenomena."
+  video: "https://youtu.be/yhpjpNXJDco"
+  slides: "slides/Jason_Wei.pdf"
 
 - name: "Aakanksha Chowdhery"
   url: "https://www.achowdhery.com/"
@@ -123,3 +133,4 @@
   date: "Monday November 25 (virtual)"
   abstract: "In this talk, Aakanksha will explore recent advances in multimodal reasoning and the design of agentic workflows for web and Android environments. Drawing from her extensive research experience at Meta, Google, and Microsoft, she will also share key insights into interdisciplinary applications of LLMs."
   bio: "Aakanksha has been a lead researcher in pre-training of large language models, such as PaLM and Gemini. She led the 540B PaLM model at Google and was a core member of the Gemini, Pathways, PaLM-E and MedPaLM projects. Before Google, she led interdisciplinary teams at Microsoft Research and Princeton University across machine learning, distributed systems and networking. Recently, she is experimenting with agentic workflows in open Llama models at Meta. She completed her PhD in Electrical Engineering from Stanford University and was awarded the Paul Baran Marconi Young Scholar Award for the outstanding scientific contributions in her dissertation."
+  video: "https://youtu.be/YdqJSjfi4iw"
