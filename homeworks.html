@@ -46,17 +46,26 @@ layout: default
 
     <center>
       <table border="1">
+  <colgroup>
+    <col style="width: 5%;">
+    <col style="width: 20%;">
+    <col style="width: 20%;">
+    <col style="width: 40%;">
+    <col style="width: 15%;">
+  </colgroup>
         <tr>
           <th><b>&nbsp;#&nbsp;</b></th>
           <th><b>Title</b></th>
+          <th><b>Links</b></th>
           <th><b>Description</b></th>
           <th><b>Due Dates</b></th>
         </tr>
         {% for assignment in site.data.assignments %}
         <tr>
-          <td>HW{{assignment.id}}&nbsp;</td>
-          <td>&nbsp;<a href="{{ assignment.link }}">{{assignment.title}}</a></td>
-          <td>&nbsp;{{assignment.description}}</td>
+          <td>HW{{assignment.id}}</td>
+          <td>{{assignment.title}}</td>
+          <td>{{assignment.link}}</td>
+          <td>{{assignment.description}}</td>
           <td>
             {% if assignment.due_dates %}
             <ul style="list-style-type:none; padding-left:0;">

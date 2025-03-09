@@ -1,5 +1,5 @@
 title: "CIS 7000 - LLMs"
-baseurl: "https://llm-class.github.io"
+#baseurl: "https://llm-class.github.io"
 navigation:
        - name: Syllabus
          link: /syllabus.html

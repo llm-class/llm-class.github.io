@@ -1,14 +1,14 @@
 - id: "0"
   title: "Exploring LLMs"
   description: "An introductory assignment comparing and analyzing outputs from different LLMs."
-  link: "https://colab.research.google.com/drive/1TSNZAtdHZ9hH8R_tWMRw1GbDB1-X9f4l?usp=sharing"
+  link: "[<a href=\"https://colab.research.google.com/drive/1TSNZAtdHZ9hH8R_tWMRw1GbDB1-X9f4l?usp=sharing\">Notebook</a>]"
   due_dates:
     - "Sun Sep 08"  # Only one due date for this assignment
 
 - id: "1"
   title: "Transformer from Scratch"
   description: "Build and understand the Transformer architecture from the ground up."
-  link: "https://colab.research.google.com/drive/11SlDZukp1t-hVlBAZkgAEUzNyrH9CwaG?usp=sharing"
+  link: "[<a href=\"https://colab.research.google.com/drive/11SlDZukp1t-hVlBAZkgAEUzNyrH9CwaG?usp=sharing\">Notebook</a>]"
   due_dates:
     - "Wed Sep 18"
     - "Sun Sep 29"
@@ -17,7 +17,9 @@
 - id: "2"
   title: "Finetuning LLMs"
   description: "Explore techniques to adapt pre-trained LLMs to new tasks in an efficient and performant manner."
-  link: "https://colab.research.google.com/drive/1YaqTaFxkZrNEyTD8NOqjbGeShA0xO6zs?usp=sharing"
+  link: "[<a href=\"https://colab.research.google.com/drive/12ZM8eTnDQZ_Hnh4ZasmKyZCBqUhOfEGb?usp=sharing\">Notebook-Part-1</a>] <br>
+         [<a href=\"https://colab.research.google.com/drive/1fMDruZAfT7xuO-RxDkHC1UvKEjAyY-y6?usp=sharing\">Notebook-Part-2</a>] <br>
+         [<a href=\"https://colab.research.google.com/drive/1YaqTaFxkZrNEyTD8NOqjbGeShA0xO6zs?usp=sharing\">Notebook-Part-3</a>]"
   due_dates:
     - "Mon Oct 21"
     - "Mon Oct 28"
@@ -26,7 +28,7 @@
 - id: "3"
   title: "LLM Compression"
   description: "Leverage patterns in pretrained weights to compress LLMs for memory-efficient inference and finetuning."
-  link: ""
+  link: "[<a href=\"https://colab.research.google.com/drive/1u8_85f34ALiYCiPZTQC6jj9adDoWV-W9?usp=sharing\">Notebook</a>]"
   due_dates:
     - "Fri Nov 15"
     - "Fri Nov 22"
